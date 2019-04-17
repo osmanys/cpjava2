@@ -22,13 +22,13 @@
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2019.04.16",
+  "date" : "2019.04.17",
   "contestName" : "CodeJam 2019 Round1A",
   "truncate" : true,
   "inputClass" : "net.oz.io.InputReader",
   "outputClass" : "net.oz.io.OutputWriter",
   "includeLocale" : false,
-  "failOnOverflow" : true,
+  "failOnOverflow" : false,
   "interactive" : false,
   "interactor" : "net.egork.chelper.tester.Interactor"
 }
