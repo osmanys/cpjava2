@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="" />
+    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/CHelper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +20,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
+          <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="35" />
+          <entry key="java" value="36" />
           <entry key="json" value="7" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -38,17 +45,18 @@
         <counts>
           <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="36" />
           <entry key="JSON" value="7" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="146" />
+          <entry key="java" value="163" />
           <entry key="json" value="2" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -58,9 +66,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="146" />
+          <entry key="JAVA" value="163" />
           <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="75" />
         </counts>
@@ -69,9 +77,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -92,6 +117,9 @@
       <dir>$PROJECT_DIR$/src/main</dir>
       <dir>$PROJECT_DIR$/lib/main/net/oz</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,9 +144,10 @@
         <option value="$PROJECT_DIR$/cpjava2.iml" />
         <option value="$PROJECT_DIR$/main/main.iml" />
         <option value="$PROJECT_DIR$/lib/lib.iml" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.json" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,17 +176,13 @@
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -201,9 +225,6 @@
       <taskConf>main/net/oz/TaskA.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
   </component>
@@ -223,30 +244,30 @@
       <workItem from="1555396610865" duration="10479000" />
       <workItem from="1555462300450" duration="59000" />
       <workItem from="1555462408318" duration="7136000" />
+      <workItem from="1555474888566" duration="811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32801000" />
+    <option name="totallyTimeSpent" value="33612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.315832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.3206785" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.32930514" />
@@ -279,7 +300,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/training/2019/04/Task_CodeJam_2019_Round1a.java" />
     <entry file="file://$PROJECT_DIR$/src/CheckerClass.template" />
     <entry file="file://$PROJECT_DIR$/src/training/_2019/_04/Task_CodeJam_2019_Round1a.java" />
     <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskA.java" />
@@ -385,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/test.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -399,20 +412,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskATestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskATestCase.java" />
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.json" />
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/cojac.jar!/com/github/cojac/Agent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -463,6 +464,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
