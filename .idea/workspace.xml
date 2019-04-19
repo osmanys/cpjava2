@@ -225,6 +225,7 @@
       <taskConf>main/net/oz/TaskA.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
   </component>
