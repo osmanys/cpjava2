@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/A - Maxim and Biology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskA.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/B - Dima and a Bad XOR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/C - Problem for Nazar.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/C - Problem for Nazar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/D - Stas and the Queue at the Buffet.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/D - Stas and the Queue at the Buffet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +34,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="8" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="46" />
+          <entry key="java" value="52" />
           <entry key="json" value="10" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -46,9 +47,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="52" />
           <entry key="JSON" value="10" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -59,7 +60,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="852" />
+          <entry key="java" value="2231" />
           <entry key="json" value="2" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -69,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="852" />
+          <entry key="JAVA" value="2231" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -80,19 +81,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/comparators/ReverseComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -150,6 +154,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
       </list>
     </option>
   </component>
@@ -189,6 +195,11 @@
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="2019.04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
@@ -252,19 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.C - Problem for Nazar">
-    <configuration name="C - Problem for Nazar" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/C - Problem for Nazar.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="D - Stas and the Queue at the Buffet" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/D - Stas and the Queue at the Buffet.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Task.E - Number of Components">
     <configuration name="E - Number of Components" type="Task" factoryName="Task">
       <taskConf>main/net/oz/E - Number of Components.json</taskConf>
       <method v="2">
@@ -278,8 +277,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Task.C - Problem for Nazar" />
-      <item itemvalue="Task.D - Stas and the Queue at the Buffet" />
       <item itemvalue="Task.E - Number of Components" />
       <item itemvalue="Task.F - Sonya and Informatics" />
     </list>
@@ -303,12 +300,12 @@
       <workItem from="1555474888566" duration="811000" />
       <workItem from="1555637934164" duration="41000" />
       <workItem from="1555637987039" duration="31000" />
-      <workItem from="1555638037089" duration="3982000" />
+      <workItem from="1555638037089" duration="17427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39780000" />
+    <option name="totallyTimeSpent" value="53225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -321,7 +318,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -339,6 +336,33 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.34652665" />
+      <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32930514" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -347,24 +371,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Task">
+        <watch expression="Math.pow(2, c + 2) - 1" language="JAVA" />
+        <watch expression="(IntegerUtils.power(2, c + 2) - 1)%3" language="JAVA" custom="net.oz.numbers.IntegerUtils" />
+        <watch expression="(Math.pow(2, c + 2) - 1) - (net.oz.numbers.IntegerUtils.power(2, c + 2) - 1)" language="JAVA" />
+        <watch expression="(Math.pow(2, c + 2) - 1)/3" language="JAVA" />
+        <watch expression="(net.oz.numbers.IntegerUtils.power(2, c + 2) - 1)/3" language="JAVA" />
+        <watch expression="(Math.pow(2, c + 1) - 2)%3" language="JAVA" />
+        <watch expression="n - Math.pow(2, c + 1) + 1" language="JAVA" />
+        <watch expression="n - Math.pow(2, c + 2) + 1" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>(net.oz.numbers.IntegerUtils.power(2, c + 2) - 1)/3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Math.pow(2, c + 2) - 1)/3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(IntegerUtils.power(2, c + 2) - 1)%3</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>net.oz.numbers.IntegerUtils</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Math.pow(2, c + 2) - 1) - (net.oz.numbers.IntegerUtils.power(2, c + 2) - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Math.pow(2, c + 2) - 1) - (IntegerUtils.power(2, c + 2) - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IntegerUtils.power(2, c + 2) - 1</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>net.oz.numbers.IntegerUtils</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Math.pow(2, c + 1) - 2)%3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n - Math.pow(2, c + 2) + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n - Math.pow(2, c + 1) + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Math.pow(2, c + 2) - 2)%3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskA.json" />
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskB.java" />
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskB.json" />
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskC.json" />
-    <entry file="file://$PROJECT_DIR$/src/lib/io/InputReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskD.json" />
     <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskD.java" />
     <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_4/CodeJam 2019 Round1a/TaskA.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
@@ -492,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-623">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -514,12 +583,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CHelperReport.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
@@ -539,8 +602,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/LongInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/MultiplicativeFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="280" selection-start-line="280" selection-end-line="280" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="275" column="53" selection-start-line="275" selection-start-column="45" selection-end-line="275" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/generated/collections/hashing/IntHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/ReverseComparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/comparators/ReverseComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

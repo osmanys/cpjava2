@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.Arrays;
 import java.io.BufferedWriter;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
@@ -22,40 +23,44 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        TaskB solver = new TaskB();
+        TaskD solver = new TaskD();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskB {
+    static class TaskD {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.readInt();
-            int row = -1, col = -1, d, m = in.readInt();
-            int r[] = new int[n];
-            boolean distinct = false;
+            Student d[] = new Student[n];
             for (int i = 0; i < n; i++) {
-                r[i] = in.readInt();
-                for (int j = 1; j < m; j++) {
-                    if (r[i] != in.readInt()) {
-                        distinct = true;
-                        row = i;
-                        col = j + 1;
-                    }
-                }
+                d[i] = new Student(in.readInt(), in.readInt());
             }
-            int v = 0;
+            Arrays.sort(d);
+            long r = 0;
             for (int i = 0; i < n; i++) {
-                v ^= r[i];
+                r += (long) d[i].a * i + (long) d[i].b * (n - i - 1);
             }
-            if (v == 0 && !distinct)
-                out.printLine("NIE");
-            else {
-                out.printLine("TAK");
-                for (int i = 0; i < n; i++) {
-                    out.print(v != 0 || i != row ? "1 " : (col + " "));
-                }
-                out.printLine();
+            out.printLine(r);
+        }
+
+        class Student implements Comparable<Student> {
+            int a;
+            int b;
+
+            Student(int a, int b) {
+                this.a = a;
+                this.b = b;
             }
+
+            public int compareTo(Student s) {
+                if (b - a > s.b - s.a)
+                    return 1;
+                else if (b - a < s.b - s.a)
+                    return -1;
+                else
+                    return 0;
+            }
+
         }
 
     }
@@ -140,26 +145,12 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
-                }
-                writer.print(objects[i]);
-            }
-        }
-
-        public void printLine() {
-            writer.println();
-        }
-
-        public void printLine(Object... objects) {
-            print(objects);
-            writer.println();
-        }
-
         public void close() {
             writer.close();
+        }
+
+        public void printLine(long i) {
+            writer.println(i);
         }
 
     }
