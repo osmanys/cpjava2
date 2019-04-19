@@ -22,35 +22,40 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        TaskA solver = new TaskA();
+        TaskB solver = new TaskB();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskA {
+    static class TaskB {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            out.print(in.readInt());
-        }
-
-    }
-
-    static class OutputWriter {
-        private final PrintWriter writer;
-
-        public OutputWriter(OutputStream outputStream) {
-            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
-        }
-
-        public OutputWriter(Writer writer) {
-            this.writer = new PrintWriter(writer);
-        }
-
-        public void close() {
-            writer.close();
-        }
-
-        public void print(int i) {
-            writer.print(i);
+            int n = in.readInt();
+            int row = -1, col = -1, d, m = in.readInt();
+            int r[] = new int[n];
+            boolean distinct = false;
+            for (int i = 0; i < n; i++) {
+                r[i] = in.readInt();
+                for (int j = 1; j < m; j++) {
+                    if (r[i] != in.readInt()) {
+                        distinct = true;
+                        row = i;
+                        col = j + 1;
+                    }
+                }
+            }
+            int v = 0;
+            for (int i = 0; i < n; i++) {
+                v ^= r[i];
+            }
+            if (v == 0 && !distinct)
+                out.printLine("NIE");
+            else {
+                out.printLine("TAK");
+                for (int i = 0; i < n; i++) {
+                    out.print(v != 0 || i != row ? "1 " : (col + " "));
+                }
+                out.printLine();
+            }
         }
 
     }
@@ -120,6 +125,41 @@ public class Main {
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
+        }
+
+    }
+
+    static class OutputWriter {
+        private final PrintWriter writer;
+
+        public OutputWriter(OutputStream outputStream) {
+            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+        }
+
+        public OutputWriter(Writer writer) {
+            this.writer = new PrintWriter(writer);
+        }
+
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
+                if (i != 0) {
+                    writer.print(' ');
+                }
+                writer.print(objects[i]);
+            }
+        }
+
+        public void printLine() {
+            writer.println();
+        }
+
+        public void printLine(Object... objects) {
+            print(objects);
+            writer.println();
+        }
+
+        public void close() {
+            writer.close();
         }
 
     }

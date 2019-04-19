@@ -1,0 +1,39 @@
+{
+  "name" : "B - Dima and a Bad XOR",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n0 0\n0 0\n0 0\n",
+    "output" : "NIE\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n7 7 7\n7 7 10\n",
+    "output" : "TAK\n1 3\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_04.on2019_04_18_Codeforces_Round__553__Div__2_.B___Dima_and_a_Bad_XOR.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.18",
+  "contestName" : "Codeforces Round #553 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

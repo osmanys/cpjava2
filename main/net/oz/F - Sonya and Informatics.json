@@ -1,5 +1,5 @@
 {
-  "name" : "TaskA",
+  "name" : "F - Sonya and Informatics",
   "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
@@ -10,20 +10,30 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "0",
-    "output" : "0",
+    "input" : "3 2\n0 1 0\n",
+    "output" : "333333336\n",
     "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 1\n1 1 1 0 0\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6 4\n1 0 0 1 1 0\n",
+    "output" : "968493834\n",
+    "index" : 2,
     "active" : true
   } ],
   "location" : "main/net/oz",
-  "vmArgs" : "-Xmx256m -Xss64m",
+  "vmArgs" : "-Xmx256M",
   "mainClass" : "Main",
-  "taskClass" : "net.oz.TaskA",
+  "taskClass" : "net.oz.TaskF",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2019.04.17",
-  "contestName" : "CodeJam 2019 Round1A",
+  "date" : "2019.04.18",
+  "contestName" : "Codeforces Round #553 (Div. 2)",
   "truncate" : true,
   "inputClass" : "net.oz.io.InputReader",
   "outputClass" : "net.oz.io.OutputWriter",

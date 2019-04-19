@@ -1,2 +1,2 @@
-22 main/net/oz/TaskA.json
+39 main/net/oz/B - Dima and a Bad XOR.json
 0
