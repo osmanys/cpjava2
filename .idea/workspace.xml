@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/C - Problem for Nazar.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/C - Problem for Nazar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/D - Stas and the Queue at the Buffet.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/D - Stas and the Queue at the Buffet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/E - Number of Components.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/E - Number of Components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskE.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,7 +56,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="2231" />
+          <entry key="java" value="2450" />
           <entry key="json" value="2" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -70,7 +66,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="2231" />
+          <entry key="JAVA" value="2450" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -81,27 +77,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/comparators/ReverseComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="105">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -156,6 +138,8 @@
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskE.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskF.java" />
       </list>
     </option>
   </component>
@@ -165,7 +149,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -263,23 +247,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.E - Number of Components">
-    <configuration name="E - Number of Components" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/E - Number of Components.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="F - Sonya and Informatics" type="Task" factoryName="Task">
       <taskConf>main/net/oz/F - Sonya and Informatics.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Task.E - Number of Components" />
-      <item itemvalue="Task.F - Sonya and Informatics" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -300,24 +274,25 @@
       <workItem from="1555474888566" duration="811000" />
       <workItem from="1555637934164" duration="41000" />
       <workItem from="1555637987039" duration="31000" />
-      <workItem from="1555638037089" duration="17427000" />
+      <workItem from="1555638037089" duration="19630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53225000" />
+    <option name="totallyTimeSpent" value="55428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.34652665" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.34652665" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,9 +560,6 @@
     <entry file="file://$PROJECT_DIR$/CHelperReport.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -670,8 +642,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="300">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

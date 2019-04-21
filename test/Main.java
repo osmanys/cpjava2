@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.io.BufferedWriter;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
@@ -23,44 +22,26 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        TaskD solver = new TaskD();
+        TaskE solver = new TaskE();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskD {
+    static class TaskE {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.readInt();
-            Student d[] = new Student[n];
+            int a[] = new int[n + 1];
             for (int i = 0; i < n; i++) {
-                d[i] = new Student(in.readInt(), in.readInt());
+                a[i + 1] = in.readInt();
             }
-            Arrays.sort(d);
             long r = 0;
-            for (int i = 0; i < n; i++) {
-                r += (long) d[i].a * i + (long) d[i].b * (n - i - 1);
+            for (int i = 1; i <= n; i++) {
+                if (a[i] > a[i - 1])
+                    r += (long) (a[i] - a[i - 1]) * (n - a[i] + 1);
+                else
+                    r += (long) a[i] * (a[i - 1] - a[i]);
             }
             out.printLine(r);
-        }
-
-        class Student implements Comparable<Student> {
-            int a;
-            int b;
-
-            Student(int a, int b) {
-                this.a = a;
-                this.b = b;
-            }
-
-            public int compareTo(Student s) {
-                if (b - a > s.b - s.a)
-                    return 1;
-                else if (b - a < s.b - s.a)
-                    return -1;
-                else
-                    return 0;
-            }
-
         }
 
     }
