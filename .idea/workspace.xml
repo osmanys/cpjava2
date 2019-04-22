@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/E - Number of Components.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/E - Number of Components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/F - Sonya and Informatics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +33,8 @@
           <entry key="class" value="8" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="52" />
-          <entry key="json" value="10" />
+          <entry key="java" value="56" />
+          <entry key="json" value="11" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
           <entry key="txt" value="4" />
@@ -45,8 +45,8 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="52" />
-          <entry key="JSON" value="10" />
+          <entry key="JAVA" value="56" />
+          <entry key="JSON" value="11" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="19" />
@@ -56,7 +56,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="2450" />
+          <entry key="java" value="2861" />
           <entry key="json" value="2" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -66,7 +66,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="2450" />
+          <entry key="JAVA" value="2861" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -77,11 +77,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/Pylons.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskF.java">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/AlienRhyme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="326">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +153,7 @@
         <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskE.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskF.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/AlienRhyme.java" />
       </list>
     </option>
   </component>
@@ -179,11 +193,6 @@
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="2019.04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
@@ -247,13 +256,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="F - Sonya and Informatics" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/F - Sonya and Informatics.json</taskConf>
+  <component name="RunManager" selected="Task.Pylons">
+    <configuration name="Golf Gophers" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/Golf Gophers.json</taskConf>
       <method v="2">
         <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Pylons" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/Pylons.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Task.Pylons" />
+      <item itemvalue="Task.Golf Gophers" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -274,12 +293,12 @@
       <workItem from="1555474888566" duration="811000" />
       <workItem from="1555637934164" duration="41000" />
       <workItem from="1555637987039" duration="31000" />
-      <workItem from="1555638037089" duration="19630000" />
+      <workItem from="1555638037089" duration="22468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55428000" />
+    <option name="totallyTimeSpent" value="58266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -416,23 +435,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_04/TaskD.java" />
-    <entry file="file://$PROJECT_DIR$/src/code/training/_2019/_4/CodeJam 2019 Round1a/TaskA.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_2019/_4/CodeJam_2019_Round1a/TaskA.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.instrument/sun/instrument/InstrumentationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7725">
-          <caret line="569" selection-start-line="569" selection-end-line="569" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/collections/AbstractTreapNode.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/io/InputReader.java" />
     <entry file="file://$PROJECT_DIR$/src/training/_2019/_4/CodeJam_2019_Round1a/TaskA.java" />
@@ -651,6 +653,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/Pylons.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/Alien Rhyme.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/string/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/AlienRhyme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

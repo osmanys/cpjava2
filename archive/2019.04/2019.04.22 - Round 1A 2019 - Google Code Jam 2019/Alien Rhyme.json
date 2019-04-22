@@ -1,6 +1,6 @@
 {
-  "name" : "F - Sonya and Informatics",
-  "testType" : "SINGLE",
+  "name" : "Alien Rhyme",
+  "testType" : "MULTI_NUMBER",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -10,30 +10,20 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "3 2\n0 1 0\n",
-    "output" : "333333336\n",
+    "input" : "4\n2\nTARPOL\nPROL\n3\nTARPOR\nPROL\nTARPRO\n6\nCODEJAM\nJAM\nHAM\nNALAM\nHUM\nNOLOM\n4\nPI\nHI\nWI\nFI\n\n  ",
+    "output" : "Case #1: 2\nCase #2: 0\nCase #3: 6\nCase #4: 2\n\n  ",
     "index" : 0,
-    "active" : true
-  }, {
-    "input" : "5 1\n1 1 1 0 0\n",
-    "output" : "0\n",
-    "index" : 1,
-    "active" : true
-  }, {
-    "input" : "6 4\n1 0 0 1 1 0\n",
-    "output" : "968493834\n",
-    "index" : 2,
     "active" : true
   } ],
   "location" : "main/net/oz",
-  "vmArgs" : "-Xmx256M",
-  "mainClass" : "Main",
-  "taskClass" : "net.oz.TaskF",
+  "vmArgs" : "-Xmx1G",
+  "mainClass" : "Solution",
+  "taskClass" : "net.oz.AlienRhyme",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2019.04.18",
-  "contestName" : "Codeforces Round #553 (Div. 2)",
+  "date" : "2019.04.22",
+  "contestName" : "Round 1A 2019 - Google Code Jam 2019",
   "truncate" : true,
   "inputClass" : "net.oz.io.InputReader",
   "outputClass" : "net.oz.io.OutputWriter",
