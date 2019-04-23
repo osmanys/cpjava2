@@ -4,10 +4,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.BufferedWriter;
-import java.util.InputMismatchException;
-import java.io.IOException;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
+import java.util.InputMismatchException;
+import java.io.IOException;
 import java.io.InputStream;
 
 /**
@@ -16,69 +16,41 @@ import java.io.InputStream;
  *
  * @author Osmanys Alonso (osmanys@gmail.com)
  */
-public class Solution {
+public class Main {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        AlienRhyme solver = new AlienRhyme();
-        int testCount = Integer.parseInt(in.next());
-        for (int i = 1; i <= testCount; i++)
-            solver.solve(i, in, out);
+        TaskC solver = new TaskC();
+        solver.solve(1, in, out);
         out.close();
     }
 
-    static class AlienRhyme {
+    static class TaskC {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.readInt();
-            Trie t = new Trie();
-            for (int i = 0; i < n; i++) {
-                t.add(StringUtils.reverse(in.readString()));
+            int m = in.readInt();
+            long x[] = new long[n];
+            for (int i = 0; i < n; i++)
+                x[i] = in.readLong();
+            long p[] = new long[m];
+            for (int i = 0; i < m; i++)
+                p[i] = in.readLong();
+            long gcd = x[1] - x[0];
+            for (int i = 2; i < n; i++)
+                gcd = IntegerUtils.gcd(gcd, x[i] - x[i - 1]);
+            int idx;
+            for (idx = 0; idx < m; idx++) {
+                if (gcd % p[idx] == 0)
+                    break;
             }
-            int r = n;
-            for (Trie.Node ch : t.root.links) {
-                r -= go(ch);
+            if (idx == m)
+                out.printLine("NO");
+            else {
+                out.printLine("YES");
+                out.printLine(x[0] + " " + (idx + 1));
             }
-            out.printLine("Case #" + testNumber + ": " + r);
-        }
-
-        int go(Trie.Node node) {
-            if (node == null)
-                return 0;
-            int r = 0;
-            if (node.leaf)
-                r++;
-            for (Trie.Node ch : node.links) {
-                r += go(ch);
-            }
-            if (r >= 2)
-                r -= 2;
-            return r;
-        }
-
-    }
-
-    static class Trie {
-        public final Trie.Node root = new Trie.Node();
-
-        public void add(CharSequence word) {
-            Trie.Node current = root;
-            int length = word.length();
-            for (int i = 0; i < length; i++) {
-                char letter = word.charAt(i);
-                if (current.links[letter] == null) {
-                    current.links[letter] = new Trie.Node();
-                }
-                current = current.links[letter];
-            }
-            current.leaf = true;
-        }
-
-        public static class Node {
-            public final Trie.Node[] links = new Trie.Node[128];
-            public boolean leaf = false;
-
         }
 
     }
@@ -134,19 +106,26 @@ public class Solution {
             return res * sgn;
         }
 
-        public String readString() {
+        public long readLong() {
             int c = read();
             while (isSpaceChar(c)) {
                 c = read();
             }
-            StringBuilder res = new StringBuilder();
+            int sgn = 1;
+            if (c == '-') {
+                sgn = -1;
+                c = read();
+            }
+            long res = 0;
             do {
-                if (Character.isValidCodePoint(c)) {
-                    res.appendCodePoint(c);
+                if (c < '0' || c > '9') {
+                    throw new InputMismatchException();
                 }
+                res *= 10;
+                res += c - '0';
                 c = read();
             } while (!isSpaceChar(c));
-            return res.toString();
+            return res * sgn;
         }
 
         public boolean isSpaceChar(int c) {
@@ -160,13 +139,23 @@ public class Solution {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
-        public String next() {
-            return readString();
-        }
-
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
+        }
+
+    }
+
+    static class IntegerUtils {
+        public static long gcd(long a, long b) {
+            a = Math.abs(a);
+            b = Math.abs(b);
+            while (b != 0) {
+                long temp = a % b;
+                a = b;
+                b = temp;
+            }
+            return a;
         }
 
     }
@@ -198,15 +187,6 @@ public class Solution {
 
         public void close() {
             writer.close();
-        }
-
-    }
-
-    static class StringUtils {
-        public static String reverse(String sample) {
-            StringBuilder result = new StringBuilder(sample);
-            result.reverse();
-            return result.toString();
         }
 
     }
