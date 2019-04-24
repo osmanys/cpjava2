@@ -1,0 +1,49 @@
+{
+  "name" : "C - Neko does Maths",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 10\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "21 31\n",
+    "output" : "9\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 10\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1924 5834",
+    "output" : "31",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_04.on2019_04_24_Codeforces_Round__554__Div__2_.C___Neko_does_Maths.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.24",
+  "contestName" : "Codeforces Round #554 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
