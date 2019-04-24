@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/A - Reverse a Substring.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/B - Game with Telephone Numbers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/C - Alarm Clocks Everywhere.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Solution.java" beforeDir="false" />
-    </list>
+    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,12 +296,12 @@
       <workItem from="1555637934164" duration="41000" />
       <workItem from="1555637987039" duration="31000" />
       <workItem from="1555638037089" duration="25177000" />
-      <workItem from="1555939095718" duration="8990000" />
+      <workItem from="1555939095718" duration="9578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69965000" />
+    <option name="totallyTimeSpent" value="70553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
