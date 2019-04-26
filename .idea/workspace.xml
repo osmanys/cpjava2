@@ -4,8 +4,6 @@
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/D - Beautiful Array.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskD.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,10 +21,11 @@
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +33,7 @@
           <entry key="class" value="8" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="88" />
+          <entry key="java" value="89" />
           <entry key="json" value="11" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -46,7 +45,7 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="89" />
           <entry key="JSON" value="11" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -57,7 +56,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="5905" />
+          <entry key="java" value="6112" />
           <entry key="json" value="2" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -67,7 +66,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="5905" />
+          <entry key="JAVA" value="6112" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -78,62 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/PrimeFastFourierTransform.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1064">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/LongInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-337">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="275" column="53" selection-start-line="275" selection-start-column="45" selection-end-line="275" selection-end-column="53" />
+            <state relative-caret-position="213">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -190,10 +138,10 @@
         <option value="$PROJECT_DIR$/main/net/oz/TaskF.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AlienRhyme.java" />
         <option value="$PROJECT_DIR$/test/Main.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
       </list>
     </option>
   </component>
@@ -216,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +232,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,10 +270,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.Pylons">
+  <component name="RunManager" selected="Task.D - Beautiful Array">
+    <configuration name="D - Beautiful Array" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/D - Beautiful Array.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="Golf Gophers" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Golf Gophers.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
@@ -335,11 +292,14 @@
       <method v="2">
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Task.Pylons" />
       <item itemvalue="Task.Golf Gophers" />
+      <item itemvalue="Task.D - Beautiful Array" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -363,17 +323,19 @@
       <workItem from="1555637987039" duration="31000" />
       <workItem from="1555638037089" duration="25177000" />
       <workItem from="1555939095718" duration="22350000" />
+      <workItem from="1556152301616" duration="1800000" />
+      <workItem from="1556200367387" duration="1804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83325000" />
+    <option name="totallyTimeSpent" value="86929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.35218093" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.3634895" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -742,33 +704,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/Pylons.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java" />
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/MultiplicativeFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-563">
@@ -776,34 +716,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/PrimeFastFourierTransform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1064">
+        <state relative-caret-position="15">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/LongInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
+        <state relative-caret-position="15">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="585">
           <caret line="275" column="53" selection-start-line="275" selection-start-column="45" selection-end-line="275" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
