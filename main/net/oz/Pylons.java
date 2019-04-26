@@ -5,5 +5,6 @@ import net.oz.io.OutputWriter;
 
 public class Pylons {
     public void solve(int testNumber, InputReader in, OutputWriter out) {
+        
     }
 }

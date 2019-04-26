@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -270,14 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.D - Beautiful Array">
-    <configuration name="D - Beautiful Array" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/D - Beautiful Array.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Task.Pylons">
     <configuration name="Golf Gophers" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Golf Gophers.json</taskConf>
       <method v="2">
@@ -299,7 +288,6 @@
     <list>
       <item itemvalue="Task.Pylons" />
       <item itemvalue="Task.Golf Gophers" />
-      <item itemvalue="Task.D - Beautiful Array" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -324,12 +312,12 @@
       <workItem from="1555638037089" duration="25177000" />
       <workItem from="1555939095718" duration="22350000" />
       <workItem from="1556152301616" duration="1800000" />
-      <workItem from="1556200367387" duration="1804000" />
+      <workItem from="1556200367387" duration="2361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86929000" />
+    <option name="totallyTimeSpent" value="87486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
