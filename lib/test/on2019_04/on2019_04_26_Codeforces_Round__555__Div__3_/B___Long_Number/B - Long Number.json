@@ -1,5 +1,5 @@
 {
-  "name" : "C2 - Increasing Subsequence (hard version)",
+  "name" : "B - Long Number",
   "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
@@ -10,40 +10,25 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "5\n1 2 4 3 2\n",
-    "output" : "4\nLRRR\n",
+    "input" : "4\n1337\n1 2 5 4 6 6 3 1 9\n",
+    "output" : "1557\n",
     "index" : 0,
     "active" : true
   }, {
-    "input" : "7\n1 3 5 6 5 4 2\n",
-    "output" : "6\nLRLRRR\n",
+    "input" : "5\n11111\n9 8 7 6 5 4 3 2 1\n",
+    "output" : "99999\n",
     "index" : 1,
     "active" : true
   }, {
-    "input" : "3\n2 2 2\n",
-    "output" : "1\nL\n",
+    "input" : "2\n33\n1 1 1 1 1 1 1 1 1\n",
+    "output" : "33\n",
     "index" : 2,
-    "active" : true
-  }, {
-    "input" : "4\n1 2 4 3 \n",
-    "output" : "4\nLLRR\n",
-    "index" : 3,
-    "active" : true
-  }, {
-    "input" : "1\n1",
-    "output" : "1\nL",
-    "index" : 4,
-    "active" : true
-  }, {
-    "input" : "6\n1 2 3 3 2 1",
-    "output" : "3\nLLL",
-    "index" : 5,
     "active" : true
   } ],
   "location" : "main/net/oz",
   "vmArgs" : "-Xmx256M",
   "mainClass" : "Main",
-  "taskClass" : "net.oz.TaskC2",
+  "taskClass" : "on2019_04.on2019_04_26_Codeforces_Round__555__Div__3_.B___Long_Number.TaskB",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
