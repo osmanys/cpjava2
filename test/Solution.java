@@ -16,79 +16,36 @@ import java.io.InputStream;
  *
  * @author Osmanys Alonso (osmanys@gmail.com)
  */
-public class Main {
+public class Solution {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        TaskC2 solver = new TaskC2();
+        Draupnir solver = new Draupnir();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskC2 {
+    static class Draupnir {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            int n = in.readInt();
-            int d[] = new int[n];
-            for (int i = 0; i < n; i++) {
-                d[i] = in.readInt();
+            int t = in.readInt();
+            in.readInt();
+            for (int tc = 0; tc < t; tc++) {
+                long d[] = new long[7];
+                for (int i = 1; i <= 6; i++) {
+                    out.printLine(i);
+                    out.flush();
+                    d[i] = in.readLong();
+                }
+                int res[] = new int[7];
+
+                out.printLine(res);
+                out.flush();
+                if (in.readInt() != 1) {
+                    return;
+                }
             }
-            StringBuilder sb = new StringBuilder();
-            int l = 0, r = n - 1;
-            int last = 0;
-            while (l <= r) {
-                if (last < d[l] && last < d[r]) {
-                    if (d[l] < d[r]) {
-                        sb.append("L");
-                        last = d[l];
-                        l++;
-                    } else if (d[l] > d[r]) {
-                        sb.append("R");
-                        last = d[r];
-                        r--;
-                    } else {
-                        int cl = 0, cr = 0, clast = 0;
-                        StringBuilder sbl = new StringBuilder();
-                        for (int i = l; i <= r; i++) {
-                            if (clast < d[i]) {
-                                cl++;
-                                clast = d[i];
-                                sbl.append("L");
-                            } else
-                                break;
-                        }
-                        clast = 0;
-                        StringBuilder sbr = new StringBuilder();
-                        for (int i = r; i >= l; i--) {
-                            if (clast < d[i]) {
-                                cr++;
-                                clast = d[i];
-                                sbr.append("R");
-                            } else
-                                break;
-                        }
-                        if (cl >= cr) {
-                            sb.append(sbl);
-                            l = r + 1;
-                        } else {
-                            sb.append(sbr);
-                            r = l - 1;
-                        }
-                    }
-                } else if (last < d[l]) {
-                    sb.append("L");
-                    last = d[l];
-                    l++;
-                } else if (last < d[r]) {
-                    sb.append("R");
-                    last = d[r];
-                    r--;
-                } else
-                    break;
-            }
-            out.printLine(sb.length());
-            out.printLine(sb.toString());
         }
 
     }
@@ -144,6 +101,28 @@ public class Main {
             return res * sgn;
         }
 
+        public long readLong() {
+            int c = read();
+            while (isSpaceChar(c)) {
+                c = read();
+            }
+            int sgn = 1;
+            if (c == '-') {
+                sgn = -1;
+                c = read();
+            }
+            long res = 0;
+            do {
+                if (c < '0' || c > '9') {
+                    throw new InputMismatchException();
+                }
+                res *= 10;
+                res += c - '0';
+                c = read();
+            } while (!isSpaceChar(c));
+            return res * sgn;
+        }
+
         public boolean isSpaceChar(int c) {
             if (filter != null) {
                 return filter.isSpaceChar(c);
@@ -173,22 +152,26 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
+        public void print(int[] array) {
+            for (int i = 0; i < array.length; i++) {
                 if (i != 0) {
                     writer.print(' ');
                 }
-                writer.print(objects[i]);
+                writer.print(array[i]);
             }
         }
 
-        public void printLine(Object... objects) {
-            print(objects);
+        public void printLine(int[] array) {
+            print(array);
             writer.println();
         }
 
         public void close() {
             writer.close();
+        }
+
+        public void flush() {
+            writer.flush();
         }
 
         public void printLine(int i) {
