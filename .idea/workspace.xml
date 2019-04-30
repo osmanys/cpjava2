@@ -4,7 +4,7 @@
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Solution.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +17,17 @@
     <session id="519436470">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,8 +35,8 @@
           <entry key="class" value="10" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="135" />
-          <entry key="json" value="16" />
+          <entry key="java" value="141" />
+          <entry key="json" value="17" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
           <entry key="txt" value="4" />
@@ -46,8 +47,8 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="135" />
-          <entry key="JSON" value="16" />
+          <entry key="JAVA" value="141" />
+          <entry key="JSON" value="17" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="19" />
@@ -57,7 +58,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="10321" />
+          <entry key="java" value="10600" />
           <entry key="json" value="18" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -67,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="10321" />
+          <entry key="JAVA" value="10600" />
           <entry key="JSON" value="18" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -78,11 +79,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/net/oz/Draupnir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/BinaryCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -151,6 +166,7 @@
         <option value="$PROJECT_DIR$/test/Solution.java" />
         <option value="$PROJECT_DIR$/main/net/oz/Draupnir.json" />
         <option value="$PROJECT_DIR$/main/net/oz/Draupnir.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/BinaryCode.java" />
       </list>
     </option>
   </component>
@@ -183,32 +199,6 @@
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="oz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="oz" type="462c0819:PsiDirectoryNode" />
-              <item name="numbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,8 +220,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,10 +258,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.Draupnir">
+  <component name="RunManager" selected="Task.Golf Gophers">
     <configuration name="Draupnir" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Draupnir.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
@@ -279,6 +274,11 @@
     <configuration name="Fair Fight" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Fair Fight.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
@@ -291,11 +291,21 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Manhattan Crepe Cart" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Manhattan Crepe Cart.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
       </method>
@@ -330,24 +340,30 @@
       <workItem from="1555939095718" duration="22350000" />
       <workItem from="1556152301616" duration="1800000" />
       <workItem from="1556200367387" duration="36857000" />
-      <workItem from="1556491628359" duration="594000" />
+      <workItem from="1556491628359" duration="626000" />
+      <workItem from="1556584162829" duration="1199000" />
+      <workItem from="1556586448176" duration="925000" />
+      <workItem from="1556587585652" duration="743000" />
+      <workItem from="1556588448220" duration="194000" />
+      <workItem from="1556588765065" duration="3737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122576000" />
+    <option name="totallyTimeSpent" value="129406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.36914378" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.25282714" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,14 +489,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/net/oz/Alien Rhyme.json" />
-    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/string/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/AlienRhyme.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/graph/GraphAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,9 +583,6 @@
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java" />
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java" />
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC1.java" />
-    <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -715,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/SumIntervalTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -757,10 +755,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/Draupnir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/BinaryCode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/BinaryCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>

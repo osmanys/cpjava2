@@ -1,0 +1,46 @@
+{
+  "name" : "BinaryCode",
+  "signature" : {
+    "name" : "decode",
+    "result" : "String[]",
+    "arguments" : [ "String" ],
+    "argumentNames" : [ "message" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "123210122" ],
+    "result" : "011100011фNONE",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "11" ],
+    "result" : "01ф10",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "22111" ],
+    "result" : "NONEф11001",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "123210120" ],
+    "result" : "NONEфNONE",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "3" ],
+    "result" : "NONEфNONE",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "12221112222221112221111111112221111" ],
+    "result" : "01101001101101001101001001001101001ф10110010110110010110010010010110010",
+    "index" : 5,
+    "active" : true
+  } ],
+  "date" : "2019.04.30",
+  "contestName" : "TopCoder SRM #144",
+  "testClasses" : [ ],
+  "fqn" : "net.oz.BinaryCode",
+  "failOnOverflow" : false,
+  "memoryLimit" : "64M"
+}
