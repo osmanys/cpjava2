@@ -1,5 +1,7 @@
 package net.oz;
 
+import net.oz.collections.intervaltree.IntervalTree;
+import net.oz.collections.intervaltree.LongIntervalTree;
 import net.oz.io.InputReader;
 import net.oz.io.OutputWriter;
 
@@ -8,76 +10,55 @@ public class FairFight {
         int n = in.readInt();
         int k = in.readInt();
         int c[] = new int[n];
-        SegmentTreeRMQ cst = new SegmentTreeRMQ();
+        SegmentTreeRMQ cst = new SegmentTreeRMQ(n);
         for(int i = 0; i < n; i++){
             c[i] = in.readInt();
+            cst.update(i, i, c[i]);
         }
-        cst.constructST(c, n);
-        SegmentTreeRMQ dst = new SegmentTreeRMQ();
+        SegmentTreeRMQ dst = new SegmentTreeRMQ(n);
         int d[] = new int[n];
         for(int i = 0; i < n; i++){
             d[i] = in.readInt();
+            dst.update(i, i, d[i]);
         }
-        dst.constructST(d, n);
         long res = 0;
         for(int l = 0; l < n; l++){
             for(int r = l; r < n; r++){
-                if(Math.abs(cst.RMQ(n, l, r) - dst.RMQ(n, l, r)) <= k)
+                if(Math.abs(cst.query(l, r) - dst.query(l, r)) <= k)
                     res++;
             }
         }
         out.printLine("Case #" + testNumber + ": " + res);
     }
 }
-class SegmentTreeRMQ {
-    int[] st;
+class SegmentTreeRMQ extends LongIntervalTree {
 
-    int maxVal(int x, int y) {
-        return (x > y) ? x : y;
+    protected SegmentTreeRMQ(int size) {
+        super(size);
     }
 
-    int getMid(int s, int e) {
-        return s + (e - s) / 2;
+    @Override
+    protected long joinValue(long left, long right) {
+        return Math.max(left, right);
     }
 
-    int RMQUtil(int ss, int se, int qs, int qe, int index) {
-        if (qs <= ss && qe >= se)
-            return st[index];
-
-        if (se < qs || ss > qe)
-            return Integer.MIN_VALUE;
-
-        int mid = getMid(ss, se);
-        return maxVal(RMQUtil(ss, mid, qs, qe, 2 * index + 1),
-                RMQUtil(mid + 1, se, qs, qe, 2 * index + 2));
+    @Override
+    protected long joinDelta(long was, long delta) {
+        return Math.max(was, delta);
     }
 
-    int RMQ(int n, int qs, int qe) {
-        if (qs < 0 || qe > n - 1 || qs > qe) {
-            System.out.println("Invalid Input");
-            return -1;
-        }
-        return RMQUtil(0, n - 1, qs, qe, 0);
+    @Override
+    protected long accumulate(long value, long delta, int length) {
+        return Math.max(value, delta);
     }
 
-    int constructSTUtil(int arr[], int ss, int se, int si) {
-        if (ss == se) {
-            st[si] = arr[ss];
-            return arr[ss];
-        }
-
-        int mid = getMid(ss, se);
-        st[si] = maxVal(constructSTUtil(arr, ss, mid, si * 2 + 1),
-                constructSTUtil(arr, mid + 1, se, si * 2 + 2));
-        return st[si];
+    @Override
+    protected long neutralValue() {
+        return -1;
     }
 
-    void constructST(int arr[], int n) {
-        int x = (int) (Math.ceil(Math.log(n) / Math.log(2)));
-
-        int max_size = 2 * (int) Math.pow(2, x) - 1;
-        st = new int[max_size];
-
-        constructSTUtil(arr, 0, n - 1, 0);
+    @Override
+    protected long neutralDelta() {
+        return -1;
     }
 }
