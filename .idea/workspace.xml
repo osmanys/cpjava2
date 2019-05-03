@@ -4,10 +4,9 @@
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/FairFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/net/oz/FairFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/Manhattan Crepe Cart.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/Manhattan Crepe Cart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/ManhattanCrepeCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/ManhattanCrepeCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinaryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskC.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/net/oz/TaskC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +27,11 @@
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,7 +39,7 @@
           <entry key="class" value="11" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="150" />
+          <entry key="java" value="151" />
           <entry key="json" value="17" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -51,7 +51,7 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="150" />
+          <entry key="JAVA" value="151" />
           <entry key="JSON" value="17" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -62,7 +62,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="12812" />
+          <entry key="java" value="12866" />
           <entry key="json" value="18" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -72,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="12812" />
+          <entry key="JAVA" value="12866" />
           <entry key="JSON" value="18" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,6 +159,7 @@
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
         <option value="$PROJECT_DIR$/test/Main.java" />
+        <option value="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
       </list>
     </option>
@@ -222,8 +223,7 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="oz" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="intervaltree" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
@@ -286,31 +286,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.C - Match Points">
-    <configuration name="A - Inscribed Figures" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/A - Inscribed Figures.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="B - Ugly Pairs" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/B - Ugly Pairs.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="C - Match Points" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/C - Match Points.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Task.Golf Gophers">
     <configuration name="Draupnir" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Draupnir.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -324,6 +304,7 @@
     <configuration name="Fair Fight" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Fair Fight.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -348,15 +329,13 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Task.Golf Gophers" />
       <item itemvalue="Task.Fair Fight" />
       <item itemvalue="Task.Draupnir" />
-      <item itemvalue="Task.A - Inscribed Figures" />
-      <item itemvalue="Task.B - Ugly Pairs" />
-      <item itemvalue="Task.C - Match Points" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -388,25 +367,26 @@
       <workItem from="1556587585652" duration="743000" />
       <workItem from="1556588448220" duration="194000" />
       <workItem from="1556588765065" duration="14600000" />
-      <workItem from="1556747074459" duration="3581000" />
+      <workItem from="1556747074459" duration="4249000" />
+      <workItem from="1556897953571" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143850000" />
+    <option name="totallyTimeSpent" value="145705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.25686592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.2609047" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,13 +494,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/graph/GraphAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/graph/DFSOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -812,10 +785,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
