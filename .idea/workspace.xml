@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/TaskC.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/net/oz/TaskC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/Draupnir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/Draupnir.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/net/oz/GolfGophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/net/oz/GolfGophers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +38,7 @@
           <entry key="class" value="11" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="15" />
-          <entry key="java" value="151" />
+          <entry key="java" value="156" />
           <entry key="json" value="17" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -51,7 +50,7 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="IDEA_MODULE" value="15" />
-          <entry key="JAVA" value="151" />
+          <entry key="JAVA" value="156" />
           <entry key="JSON" value="17" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -62,7 +61,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="12866" />
+          <entry key="java" value="12869" />
           <entry key="json" value="18" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -72,7 +71,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="12866" />
+          <entry key="JAVA" value="12869" />
           <entry key="JSON" value="18" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -84,13 +83,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="96">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/FairFight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -161,6 +169,7 @@
         <option value="$PROJECT_DIR$/test/Main.java" />
         <option value="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/GolfGophers.java" />
       </list>
     </option>
   </component>
@@ -287,20 +296,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Task.Golf Gophers">
-    <configuration name="Draupnir" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/Draupnir.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
     <configuration name="Fair Fight" type="Task" factoryName="Task">
       <taskConf>main/net/oz/Fair Fight.json</taskConf>
       <method v="2">
@@ -335,7 +330,6 @@
     <list>
       <item itemvalue="Task.Golf Gophers" />
       <item itemvalue="Task.Fair Fight" />
-      <item itemvalue="Task.Draupnir" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -368,12 +362,12 @@
       <workItem from="1556588448220" duration="194000" />
       <workItem from="1556588765065" duration="14600000" />
       <workItem from="1556747074459" duration="4249000" />
-      <workItem from="1556897953571" duration="1187000" />
+      <workItem from="1556897953571" duration="2384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145705000" />
+    <option name="totallyTimeSpent" value="146902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -715,59 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/FairFight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/LongIntervalTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/Draupnir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -797,8 +742,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/Draupnir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/FairFight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
