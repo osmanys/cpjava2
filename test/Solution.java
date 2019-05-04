@@ -27,9 +27,7 @@ public class Solution {
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
         GolfGophers solver = new GolfGophers();
-        int testCount = Integer.parseInt(in.next());
-        for (int i = 1; i <= testCount; i++)
-            solver.solve(i, in, out);
+        solver.solve(1, in, out);
         out.close();
     }
 
@@ -133,21 +131,6 @@ public class Solution {
             return res * sgn;
         }
 
-        public String readString() {
-            int c = read();
-            while (isSpaceChar(c)) {
-                c = read();
-            }
-            StringBuilder res = new StringBuilder();
-            do {
-                if (Character.isValidCodePoint(c)) {
-                    res.appendCodePoint(c);
-                }
-                c = read();
-            } while (!isSpaceChar(c));
-            return res.toString();
-        }
-
         public boolean isSpaceChar(int c) {
             if (filter != null) {
                 return filter.isSpaceChar(c);
@@ -157,10 +140,6 @@ public class Solution {
 
         public static boolean isWhitespace(int c) {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
-        }
-
-        public String next() {
-            return readString();
         }
 
         public interface SpaceCharFilter {

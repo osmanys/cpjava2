@@ -1,6 +1,6 @@
 {
   "name" : "Golf Gophers",
-  "testType" : "MULTI_NUMBER",
+  "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -24,6 +24,6 @@
   "outputClass" : "net.oz.io.OutputWriter",
   "includeLocale" : false,
   "failOnOverflow" : false,
-  "interactive" : false,
+  "interactive" : true,
   "interactor" : "net.egork.chelper.tester.Interactor"
 }
