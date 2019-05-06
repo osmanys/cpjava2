@@ -1,0 +1,29 @@
+{
+  "name" : "Power Arrangers",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1G",
+  "mainClass" : "Solution",
+  "taskClass" : "net.oz.PowerArrangers",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "net.oz.PowerArrangersTestCase" ],
+  "date" : "2019.05.04",
+  "contestName" : "Round 1C 2019 - Google Code Jam 2019",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

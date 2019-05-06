@@ -3,15 +3,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.Iterator;
 import java.io.BufferedWriter;
 import java.util.InputMismatchException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.io.Writer;
 import java.io.OutputStreamWriter;
-import java.math.BigInteger;
-import java.util.NoSuchElementException;
 import java.io.InputStream;
 
 /**
@@ -26,48 +23,78 @@ public class Solution {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        GolfGophers solver = new GolfGophers();
+        PowerArrangers solver = new PowerArrangers();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class GolfGophers {
-        int[] p = {7, 11, 13, 15, 16, 17};
-
+    static class PowerArrangers {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int t = in.readInt();
-            int n = in.readInt();
-            int m = in.readInt();
+            in.readInt();
+            int last = 0, idx, r;
+            int q = 0;
+            ArrayList<Integer> cur = new ArrayList<>();
+            for (int i = 0; i < 119; i++) {
+                cur.add(i);
+            }
+            ArrayList<Integer> tmp[];
+            StringBuilder sb;
             for (int tn = 0; tn < t; tn++) {
-                long answer = 0;
-                long mod = 1;
-                for (int i = 0; i < 6; i++) {
-                    out.printLine(ArrayUtils.createArray(18, p[i]));
-                    out.flush();
-                    int[] rem = in.readIntArray(18);
-                    long current = ArrayUtils.sumArray(rem) % p[i];
-                    answer = IntegerUtils.findCommon(answer, mod, current, p[i]);
-                    mod *= p[i];
+                sb = new StringBuilder();
+                for (int d = 1; d < 5; d++) {
+                    tmp = new ArrayList[5];
+                    for (int i = 0; i < 5; i++)
+                        tmp[i] = new ArrayList<>();
+                    for (int k : cur) {
+                        out.printLine(5 * k + d);
+                        out.flush();
+                        q++;
+                        r = in.readCharacter() - 'A';
+                        tmp[r].add(k);
+                    }
+                    if (d < 4) {
+                        for (idx = 0; idx < 5; idx++) {
+                            if (tmp[idx].size() == val(d))
+                                break;
+                        }
+                        sb.append((char) ('A' + idx));
+                        cur = tmp[idx];
+                    } else {
+                        for (idx = 0; idx < 5; idx++) {
+                            if (tmp[idx].size() == 1) {
+                                last = idx;
+                                break;
+                            }
+                        }
+                    }
                 }
-                out.printLine(answer);
+                int cnt[] = new int[5];
+                for (int i = 0; i < sb.length(); i++) {
+                    cnt[sb.charAt(i) - 'A']++;
+                }
+                for (int i = 0; i < 5; i++) {
+                    if (cnt[i] == 0 && i != last) {
+                        sb.append((char) ('A' + i));
+                        break;
+                    }
+                }
+                sb.append((char) ('A' + last));
+                out.printLine(sb.toString());
                 out.flush();
-                if (in.readInt() != 1) {
+                if (in.readCharacter() != 'Y') {
                     return;
                 }
             }
         }
 
-    }
-
-    static class ArrayUtils {
-        public static long sumArray(int[] array) {
-            return new IntArray(array).sum();
-        }
-
-        public static int[] createArray(int count, int value) {
-            int[] array = new int[count];
-            Arrays.fill(array, value);
-            return array;
+        private int val(int d) {
+            if (d == 1)
+                return 23;
+            else if (d == 2)
+                return 5;
+            else
+                return 1;
         }
 
     }
@@ -81,14 +108,6 @@ public class Solution {
 
         public InputReader(InputStream stream) {
             this.stream = stream;
-        }
-
-        public int[] readIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) {
-                array[i] = readInt();
-            }
-            return array;
         }
 
         public int read() {
@@ -142,103 +161,19 @@ public class Solution {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
+        public char readCharacter() {
+            int c = read();
+            while (isSpaceChar(c)) {
+                c = read();
+            }
+            return (char) c;
+        }
+
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
         }
 
-    }
-
-    static interface IntIterator {
-        public int value() throws NoSuchElementException;
-
-        public boolean advance();
-
-        public boolean isValid();
-
-    }
-
-    static interface IntList extends IntReversableCollection {
-        public abstract int get(int index);
-
-        public abstract void removeAt(int index);
-
-        default public IntIterator intIterator() {
-            return new IntIterator() {
-                private int at;
-                private boolean removed;
-
-                public int value() {
-                    if (removed) {
-                        throw new IllegalStateException();
-                    }
-                    return get(at);
-                }
-
-                public boolean advance() {
-                    at++;
-                    removed = false;
-                    return isValid();
-                }
-
-                public boolean isValid() {
-                    return !removed && at < size();
-                }
-
-                public void remove() {
-                    removeAt(at);
-                    at--;
-                    removed = true;
-                }
-            };
-        }
-
-    }
-
-    static abstract class IntAbstractStream implements IntStream {
-        public String toString() {
-            StringBuilder builder = new StringBuilder();
-            boolean first = true;
-            for (IntIterator it = intIterator(); it.isValid(); it.advance()) {
-                if (first) {
-                    first = false;
-                } else {
-                    builder.append(' ');
-                }
-                builder.append(it.value());
-            }
-            return builder.toString();
-        }
-
-        public boolean equals(Object o) {
-            if (!(o instanceof IntStream)) {
-                return false;
-            }
-            IntStream c = (IntStream) o;
-            IntIterator it = intIterator();
-            IntIterator jt = c.intIterator();
-            while (it.isValid() && jt.isValid()) {
-                if (it.value() != jt.value()) {
-                    return false;
-                }
-                it.advance();
-                jt.advance();
-            }
-            return !it.isValid() && !jt.isValid();
-        }
-
-        public int hashCode() {
-            int result = 0;
-            for (IntIterator it = intIterator(); it.isValid(); it.advance()) {
-                result *= 31;
-                result += it.value();
-            }
-            return result;
-        }
-
-    }
-
-    static interface IntReversableCollection extends IntCollection {
     }
 
     static class OutputWriter {
@@ -252,17 +187,17 @@ public class Solution {
             this.writer = new PrintWriter(writer);
         }
 
-        public void print(int[] array) {
-            for (int i = 0; i < array.length; i++) {
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
                 if (i != 0) {
                     writer.print(' ');
                 }
-                writer.print(array[i]);
+                writer.print(objects[i]);
             }
         }
 
-        public void printLine(int[] array) {
-            print(array);
+        public void printLine(Object... objects) {
+            print(objects);
             writer.println();
         }
 
@@ -274,118 +209,8 @@ public class Solution {
             writer.flush();
         }
 
-        public void printLine(long i) {
+        public void printLine(int i) {
             writer.println(i);
-        }
-
-    }
-
-    static class IntArray extends IntAbstractStream implements IntList {
-        private int[] data;
-
-        public IntArray(int[] arr) {
-            data = arr;
-        }
-
-        public int size() {
-            return data.length;
-        }
-
-        public int get(int at) {
-            return data[at];
-        }
-
-        public void removeAt(int index) {
-            throw new UnsupportedOperationException();
-        }
-
-    }
-
-    static interface IntCollection extends IntStream {
-        public int size();
-
-    }
-
-    static interface IntStream extends Iterable<Integer>, Comparable<IntStream> {
-        public IntIterator intIterator();
-
-        default public Iterator<Integer> iterator() {
-            return new Iterator<Integer>() {
-                private IntIterator it = intIterator();
-
-                public boolean hasNext() {
-                    return it.isValid();
-                }
-
-                public Integer next() {
-                    int result = it.value();
-                    it.advance();
-                    return result;
-                }
-            };
-        }
-
-        default public int compareTo(IntStream c) {
-            IntIterator it = intIterator();
-            IntIterator jt = c.intIterator();
-            while (it.isValid() && jt.isValid()) {
-                int i = it.value();
-                int j = jt.value();
-                if (i < j) {
-                    return -1;
-                } else if (i > j) {
-                    return 1;
-                }
-                it.advance();
-                jt.advance();
-            }
-            if (it.isValid()) {
-                return 1;
-            }
-            if (jt.isValid()) {
-                return -1;
-            }
-            return 0;
-        }
-
-        default public long sum() {
-            long result = 0;
-            for (IntIterator it = intIterator(); it.isValid(); it.advance()) {
-                result += it.value();
-            }
-            return result;
-        }
-
-    }
-
-    static class IntegerUtils {
-        public static long gcd(long a, long b) {
-            a = Math.abs(a);
-            b = Math.abs(b);
-            while (b != 0) {
-                long temp = a % b;
-                a = b;
-                b = temp;
-            }
-            return a;
-        }
-
-        public static long findCommon(long aRemainder, long aMod, long bRemainder, long bMod) {
-            long modGCD = gcd(aMod, bMod);
-            long gcdRemainder = aRemainder % modGCD;
-            if (gcdRemainder != bRemainder % modGCD) {
-                return -1;
-            }
-            aMod /= modGCD;
-            aRemainder /= modGCD;
-            bMod /= modGCD;
-            bRemainder /= modGCD;
-            BigInteger aReverse = BigInteger.valueOf(aMod).modInverse(BigInteger.valueOf(bMod));
-            BigInteger bReverse = BigInteger.valueOf(bMod).modInverse(BigInteger.valueOf(aMod));
-            BigInteger mod = BigInteger.valueOf(aMod * bMod);
-            return bReverse.multiply(BigInteger.valueOf(aRemainder)).mod(mod).multiply(BigInteger.valueOf(bMod)).add(
-                    aReverse.multiply(BigInteger.valueOf(bRemainder)).mod(mod).multiply(BigInteger.valueOf(aMod))
-            ).mod(mod).longValue() * modGCD + gcdRemainder;
         }
 
     }
