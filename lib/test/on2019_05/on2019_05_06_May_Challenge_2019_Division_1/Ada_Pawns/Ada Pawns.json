@@ -1,0 +1,39 @@
+{
+  "name" : "Ada Pawns",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n6\n...O..\n..O...\n.O.O..\n..O...\n.O.O..\nO.O.O.\n6\n..O...\n.O....\n..O...\n.O.O..\nO.O.O.\n.O.O..",
+    "output" : "4\n5 2 R\n5 4 L\n4 3 L\n2 3 R\n5\n5 1 R\n5 3 L\n5 5 L\n3 3 L\n2 2 R",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n3\n.O.\nO.O\n...",
+    "output" : "2\n2 1 R\n2 3 L",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_05.on2019_05_06_May_Challenge_2019_Division_1.Ada_Pawns.AdaPawns",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "on2019_05.on2019_05_06_May_Challenge_2019_Division_1.Ada_Pawns.AdaPawnsTestLargeCase" ],
+  "date" : "2019.05.06",
+  "contestName" : "May Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

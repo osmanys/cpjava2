@@ -1,0 +1,34 @@
+{
+  "name" : "Ada Rooks 2",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n100\n",
+    "output" : "OO.O [96 characters follow]\nO... [96 characters follow]\n..O. [96 characters follow]\nO... [96 characters follow]\n[96 lines follow]\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_05.on2019_05_06_May_Challenge_2019_Division_1.Ada_Rooks_2.AdaRooks2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.06",
+  "contestName" : "May Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

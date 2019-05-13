@@ -7,26 +7,27 @@ import net.oz.io.OutputWriter;
 import java.io.StringWriter;
 import java.util.*;
 
-public class PowerArrangersTestCase {
+public class AdaPawnsTestLargeCase {
     @TestCase
     public Collection<Test> createTests() {
         List<Test> tests = new ArrayList<>();
-        int testCount = 1;
+        int testCount = 10;
+
+        Random rand = new Random();
+        boolean b;
+        int n = 100;
         for (int testNumber = 0; testNumber < testCount; testNumber++) {
             StringWriter sw = new StringWriter();
             OutputWriter out = new OutputWriter(sw);
-            out.printLine(1, 150);
-            int limit = 120;
-            char order[] = new char[]{'B', 'A', 'E', 'D', 'C'};
-            for (int d = 0; d < 5; d++) {
-                limit = limit / (5 - d);
-                for (int i = d; i < 5; i++) {
-                    for (int j = 0; j < limit - (i == d ? 1 : 0); j++) {
-                        out.printLine(order[i]);
-                    }
+            out.printLine(1);
+            out.printLine(n);
+            for (int r = 0; r < n; r++) {
+                for (int c = 0; c < n; c++) {
+                    b = rand.nextInt(2) == 0;
+                    out.print(b ? 'O' : '.');
                 }
+                out.printLine();
             }
-            out.printLine('Y');
             tests.add(new Test(sw.toString()));
         }
         return tests;

@@ -1,6 +1,6 @@
 {
-  "name" : "Power Arrangers",
-  "testType" : "SINGLE",
+  "name" : "Robot Programming Strategy",
+  "testType" : "MULTI_NUMBER",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -9,14 +9,19 @@
     "type" : "STANDARD",
     "fileName" : "output.txt"
   },
-  "tests" : [ ],
+  "tests" : [ {
+    "input" : "4\n1\nRS\n3\nR\nP\nS\n7\nRS\nRS\nRS\nRS\nRS\nRS\nRS\n3\nRSR\nSPR\nRPP\n\n  ",
+    "output" : "Case #1: P\nCase #2: IMPOSSIBLE\nCase #3: P\nCase #4: P\n\n  ",
+    "index" : 0,
+    "active" : true
+  } ],
   "location" : "main/net/oz",
   "vmArgs" : "-Xmx1G",
   "mainClass" : "Solution",
-  "taskClass" : "net.oz.PowerArrangers",
+  "taskClass" : "on2019_05.on2019_05_04_Round_1C_2019___Google_Code_Jam_2019.Robot_Programming_Strategy.RobotProgrammingStrategy",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
-  "testClasses" : [ "net.oz.PowerArrangersTestCase" ],
+  "testClasses" : [ ],
   "date" : "2019.05.04",
   "contestName" : "Round 1C 2019 - Google Code Jam 2019",
   "truncate" : true,
