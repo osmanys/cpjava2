@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Ada Pawns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Ada Rooks 2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaPawns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaRooks2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/WhereToBuildTheRoads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/A - A pile of stones.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/B - Expansion coefficient of the array.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/C - The party and sweets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main/net/oz/graph/HopcroftKarp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/A - Remainder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/B - Polycarp Training.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/C - Good String.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/D - Almost All Divisors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/Fair Fight.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/Fair Fight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/FairFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/FairFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/Golf Gophers.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/Golf Gophers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/GolfGophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/GolfGophers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/Power Arrangers.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Where to Build the Roads.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/PowerArrangers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/PowerArrangersTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaPawnsTestLargeCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/Robot Programming Strategy.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.04 - Round 1C 2019 - Google Code Jam 2019/Robot Programming Strategy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/net/oz/RobotProgrammingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.04 - Round 1C 2019 - Google Code Jam 2019/RobotProgrammingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Solution.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +46,7 @@
           <entry key="class" value="15" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="16" />
-          <entry key="java" value="208" />
+          <entry key="java" value="214" />
           <entry key="json" value="20" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -71,7 +58,7 @@
         <counts>
           <entry key="CLASS" value="15" />
           <entry key="IDEA_MODULE" value="16" />
-          <entry key="JAVA" value="208" />
+          <entry key="JAVA" value="214" />
           <entry key="JSON" value="20" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -82,7 +69,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="23969" />
+          <entry key="java" value="25480" />
           <entry key="json" value="18" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -92,7 +79,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="23969" />
+          <entry key="JAVA" value="25480" />
           <entry key="JSON" value="18" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -104,10 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="132">
+              <caret line="263" column="23" selection-start-line="263" selection-start-column="23" selection-end-line="263" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -190,16 +177,16 @@
         <option value="$PROJECT_DIR$/main/net/oz/AdaRooks2.java" />
         <option value="$PROJECT_DIR$/main/net/oz/WhereToBuildTheRoads.java" />
         <option value="$PROJECT_DIR$/test/Main.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskE.java" />
         <option value="$PROJECT_DIR$/lib/main/net/oz/graph/GraphAlgorithms.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AdaPawnsTestCase.java" />
         <option value="$PROJECT_DIR$/lib/main/net/oz/graph/HopcroftKarp.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AdaPawns.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AdaPawnsTestLargeCase.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
       </list>
     </option>
   </component>
@@ -245,12 +232,6 @@
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="oz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
@@ -301,26 +282,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.D - The minimal unique substring">
-    <configuration name="D - The minimal unique substring" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/D - The minimal unique substring.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="E - Permutation recovery" type="Task" factoryName="Task">
-      <taskConf>main/net/oz/E - Permutation recovery.json</taskConf>
-      <method v="2">
-        <option name="MakeProject" enabled="false" />
-        <option name="MakeProject" enabled="false" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Task.D - The minimal unique substring" />
-      <item itemvalue="Task.E - Permutation recovery" />
-    </list>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -354,15 +315,16 @@
       <workItem from="1556897953571" duration="17010000" />
       <workItem from="1557156140836" duration="8128000" />
       <workItem from="1557365094369" duration="64251000" />
-      <workItem from="1557688588131" duration="13551000" />
+      <workItem from="1557688588131" duration="21301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247458000" />
+    <option name="totallyTimeSpent" value="255208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.273021" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
@@ -423,18 +385,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/main/net/oz/TaskE.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -550,13 +500,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/Draupnir.java" />
-    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="467" column="23" selection-start-line="467" selection-start-column="23" selection-end-line="467" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/TestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -733,30 +676,6 @@
     <entry file="file://$PROJECT_DIR$/main/net/oz/A - A pile of stones.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/GolfGophers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -807,13 +726,6 @@
     <entry file="file://$PROJECT_DIR$/main/net/oz/Fair Fight.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TreesAndDegrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -821,10 +733,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="252">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="263" column="23" selection-start-line="263" selection-start-column="23" selection-end-line="263" selection-end-column="23" />
         </state>
       </provider>
     </entry>
