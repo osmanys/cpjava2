@@ -1,0 +1,48 @@
+{
+  "name" : "D - Bicolored RBS",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n()\n",
+    "output" : "00\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n(())\n",
+    "output" : "0110\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n((()())())\n",
+    "output" : "0111001000\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "20\n(())(()()())(())()()",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_05.on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_.D___Bicolored_RBS.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.15",
+  "contestName" : "Educational Codeforces Round 65 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
