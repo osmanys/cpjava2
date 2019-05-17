@@ -30,23 +30,14 @@ public class Main {
     static class TaskD {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.readInt();
-            String s = in.readString();
+            int k = in.readInt();
+            int a = (n - k) / 2;
             StringBuilder sb = new StringBuilder();
-            int q[] = new int[n];
-            int idx = 0;
-            for (int i = 0; i < n; i++) {
-                if (idx == 0) {
+            for (int i = 0; sb.length() < n; i++) {
+                for (int j = 0; j < a && sb.length() < n; j++)
                     sb.append(0);
-                    q[idx++] = 0;
-                    continue;
-                }
-                if (s.charAt(i) == '(') {
-                    q[idx] = q[idx - 1] ^ 1;
-                    idx++;
-                    sb.append(q[idx - 1]);
-                } else {
-                    sb.append(q[--idx]);
-                }
+                if (sb.length() < n)
+                    sb.append(1);
             }
             out.printLine(sb);
         }
@@ -133,21 +124,6 @@ public class Main {
                 c = read();
             } while (!isSpaceChar(c));
             return res * sgn;
-        }
-
-        public String readString() {
-            int c = read();
-            while (isSpaceChar(c)) {
-                c = read();
-            }
-            StringBuilder res = new StringBuilder();
-            do {
-                if (Character.isValidCodePoint(c)) {
-                    res.appendCodePoint(c);
-                }
-                c = read();
-            } while (!isSpaceChar(c));
-            return res.toString();
         }
 
         public boolean isSpaceChar(int c) {
