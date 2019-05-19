@@ -23,54 +23,34 @@ public class Main {
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
         TaskD solver = new TaskD();
-        int testCount = Integer.parseInt(in.next());
-        for (int i = 1; i <= testCount; i++)
-            solver.solve(i, in, out);
+        solver.solve(1, in, out);
         out.close();
     }
 
     static class TaskD {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            long a = in.readLong();
-            long b = in.readLong();
-            long rcalc = 0, m = in.readLong();
-            int k = 2;
-            for (; k <= 50; k++) {
-                rcalc = b - (1 << (k - 2)) * a - 1;
-                if (rcalc < 0) {
-                    k = 51;
-                    break;
-                }
-                if (m >= rcalc >> k - 3)
-                    break;
+            int n = in.readInt();
+            int d[] = in.readIntArray(n);
+            long sum = 0;
+            long min = Integer.MAX_VALUE;
+            for (int i = 0; i < n; i++) {
+                sum += Math.abs(d[i]);
+                if (min > Math.abs(d[i]))
+                    min = Math.abs(d[i]);
             }
-            if (k > 50)
-                out.printLine(-1);
-            else {
-                long r[] = new long[k];
-                r[k - 1] = 1;
-                int idx = k - 2;
-                while (idx > 1) {
-                    if (rcalc % 2 == 1) {
-                        r[idx] = 1;
-                    } else {
-                        r[idx] = 2;
-                        rcalc -= 2;
-                    }
-                    rcalc >>= 1;
-                    idx--;
+            int m[] = new int[n];
+            m[0] = 1;
+            for (int i = 0; i < n - 1; i++) {
+                m[i + 1] = 1;
+                if (m[i] * d[i] < 0) {
+                    m[i] *= -1;
+                    m[i + 1] *= -1;
                 }
-                r[1] = rcalc;
-                long res[] = new long[k];
-                res[0] = a;
-                res[1] = a + r[1];
-                res[k - 1] = b;
-                for (int i = 2; i < k - 1; i++) {
-                    res[i] = 2 * res[i - 1] - r[i - 1] + r[i];
-                }
-                out.print(k + " ");
-                out.printLine(res);
             }
+            if (d[n - 1] * m[n - 1] >= 0)
+                out.printLine(sum);
+            else
+                out.printLine(sum - 2 * min);
         }
 
     }
@@ -84,6 +64,14 @@ public class Main {
 
         public InputReader(InputStream stream) {
             this.stream = stream;
+        }
+
+        public int[] readIntArray(int size) {
+            int[] array = new int[size];
+            for (int i = 0; i < size; i++) {
+                array[i] = readInt();
+            }
+            return array;
         }
 
         public int read() {
@@ -104,7 +92,7 @@ public class Main {
             return buf[curChar++];
         }
 
-        public long readLong() {
+        public int readInt() {
             int c = read();
             while (isSpaceChar(c)) {
                 c = read();
@@ -114,7 +102,7 @@ public class Main {
                 sgn = -1;
                 c = read();
             }
-            long res = 0;
+            int res = 0;
             do {
                 if (c < '0' || c > '9') {
                     throw new InputMismatchException();
@@ -126,21 +114,6 @@ public class Main {
             return res * sgn;
         }
 
-        public String readString() {
-            int c = read();
-            while (isSpaceChar(c)) {
-                c = read();
-            }
-            StringBuilder res = new StringBuilder();
-            do {
-                if (Character.isValidCodePoint(c)) {
-                    res.appendCodePoint(c);
-                }
-                c = read();
-            } while (!isSpaceChar(c));
-            return res.toString();
-        }
-
         public boolean isSpaceChar(int c) {
             if (filter != null) {
                 return filter.isSpaceChar(c);
@@ -150,10 +123,6 @@ public class Main {
 
         public static boolean isWhitespace(int c) {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
-        }
-
-        public String next() {
-            return readString();
         }
 
         public interface SpaceCharFilter {
@@ -174,34 +143,11 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
-                }
-                writer.print(objects[i]);
-            }
-        }
-
-        public void print(long[] array) {
-            for (int i = 0; i < array.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
-                }
-                writer.print(array[i]);
-            }
-        }
-
-        public void printLine(long[] array) {
-            print(array);
-            writer.println();
-        }
-
         public void close() {
             writer.close();
         }
 
-        public void printLine(int i) {
+        public void printLine(long i) {
             writer.println(i);
         }
 

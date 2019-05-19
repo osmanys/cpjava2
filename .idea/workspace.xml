@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/A - Silent Classroom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/B - All the Vowels Please.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/C - A Tale of Two Lands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskCTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Main.java" afterDir="false" />
     </list>
@@ -45,7 +37,7 @@
           <entry key="class" value="16" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="16" />
-          <entry key="java" value="247" />
+          <entry key="java" value="252" />
           <entry key="json" value="21" />
           <entry key="properties" value="3" />
           <entry key="template" value="4" />
@@ -57,7 +49,7 @@
         <counts>
           <entry key="CLASS" value="16" />
           <entry key="IDEA_MODULE" value="16" />
-          <entry key="JAVA" value="247" />
+          <entry key="JAVA" value="252" />
           <entry key="JSON" value="21" />
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="3" />
@@ -68,7 +60,7 @@
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="iml" value="35" />
-          <entry key="java" value="29967" />
+          <entry key="java" value="31205" />
           <entry key="json" value="18" />
           <entry key="properties" value="5" />
           <entry key="template" value="6" />
@@ -78,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="29967" />
+          <entry key="JAVA" value="31205" />
           <entry key="JSON" value="18" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="5" />
@@ -88,7 +80,44 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,11 +201,11 @@
         <option value="$PROJECT_DIR$/lib/main/net/oz/graph/HopcroftKarp.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AdaPawns.java" />
         <option value="$PROJECT_DIR$/main/net/oz/AdaPawnsTestLargeCase.java" />
+        <option value="$PROJECT_DIR$/main/net/oz/TaskCTestCase.java" />
         <option value="$PROJECT_DIR$/test/Main.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
-        <option value="$PROJECT_DIR$/main/net/oz/TaskCTestCase.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskD.java" />
       </list>
     </option>
@@ -218,13 +247,6 @@
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="2019.05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
-              <item name="archive" type="462c0819:PsiDirectoryNode" />
-              <item name="2019.05" type="462c0819:PsiDirectoryNode" />
-              <item name="2019.05.17 - Codeforces Round #561 (Div. 2)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
@@ -292,6 +314,38 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Task.D - Flipping Signs">
+    <configuration name="A - Biscuit Generator" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/A - Biscuit Generator.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="B - Resale" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/B - Resale.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="C - GCD on Blackboard" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/C - GCD on Blackboard.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="D - Flipping Signs" type="Task" factoryName="Task">
+      <taskConf>main/net/oz/D - Flipping Signs.json</taskConf>
+      <method v="2">
+        <option name="MakeProject" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Task.A - Biscuit Generator" />
+      <item itemvalue="Task.B - Resale" />
+      <item itemvalue="Task.C - GCD on Blackboard" />
+      <item itemvalue="Task.D - Flipping Signs" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -326,25 +380,26 @@
       <workItem from="1557156140836" duration="8128000" />
       <workItem from="1557365094369" duration="64251000" />
       <workItem from="1557688588131" duration="34345000" />
-      <workItem from="1558065150360" duration="25682000" />
+      <workItem from="1558065150360" duration="34914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293934000" />
+    <option name="totallyTimeSpent" value="303166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.27705976" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.27705976" />
       <window_info id="Structure" order="1" sideWeight="0.50151056" side_tool="true" weight="0.29644588" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4951535" weight="0.32930514" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39879155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4951535" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -593,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/io/OutputWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -696,34 +744,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="300">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/net/oz/TaskD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="307">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
