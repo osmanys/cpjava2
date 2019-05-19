@@ -1,0 +1,47 @@
+{
+  "name" : "B - All the Vowels Please",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n",
+    "output" : "-1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "36\n",
+    "output" : "aeiouaeiouaeiouaeiouaeiouaeiouaeioua\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "25",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "70",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.17",
+  "contestName" : "Codeforces Round #561 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

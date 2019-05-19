@@ -23,54 +23,54 @@ public class Main {
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
         TaskD solver = new TaskD();
-        solver.solve(1, in, out);
+        int testCount = Integer.parseInt(in.next());
+        for (int i = 1; i <= testCount; i++)
+            solver.solve(i, in, out);
         out.close();
     }
 
     static class TaskD {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            int n = in.readInt();
-            int k = in.readInt();
-            int a = (n - k) / 2;
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; sb.length() < n; i++) {
-                for (int j = 0; j < a && sb.length() < n; j++)
-                    sb.append(0);
-                if (sb.length() < n)
-                    sb.append(1);
-            }
-            out.printLine(sb);
-        }
-
-    }
-
-    static class OutputWriter {
-        private final PrintWriter writer;
-
-        public OutputWriter(OutputStream outputStream) {
-            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
-        }
-
-        public OutputWriter(Writer writer) {
-            this.writer = new PrintWriter(writer);
-        }
-
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
+            long a = in.readLong();
+            long b = in.readLong();
+            long rcalc = 0, m = in.readLong();
+            int k = 2;
+            for (; k <= 50; k++) {
+                rcalc = b - (1 << (k - 2)) * a - 1;
+                if (rcalc < 0) {
+                    k = 51;
+                    break;
                 }
-                writer.print(objects[i]);
+                if (m >= rcalc >> k - 3)
+                    break;
             }
-        }
-
-        public void printLine(Object... objects) {
-            print(objects);
-            writer.println();
-        }
-
-        public void close() {
-            writer.close();
+            if (k > 50)
+                out.printLine(-1);
+            else {
+                long r[] = new long[k];
+                r[k - 1] = 1;
+                int idx = k - 2;
+                while (idx > 1) {
+                    if (rcalc % 2 == 1) {
+                        r[idx] = 1;
+                    } else {
+                        r[idx] = 2;
+                        rcalc -= 2;
+                    }
+                    rcalc >>= 1;
+                    idx--;
+                }
+                r[1] = rcalc;
+                long res[] = new long[k];
+                res[0] = a;
+                res[1] = a + r[1];
+                res[k - 1] = b;
+                for (int i = 2; i < k - 1; i++) {
+                    res[i] = 2 * res[i - 1] - r[i - 1] + r[i];
+                }
+                out.print(k + " ");
+                out.printLine(res);
+            }
         }
 
     }
@@ -104,7 +104,7 @@ public class Main {
             return buf[curChar++];
         }
 
-        public int readInt() {
+        public long readLong() {
             int c = read();
             while (isSpaceChar(c)) {
                 c = read();
@@ -114,7 +114,7 @@ public class Main {
                 sgn = -1;
                 c = read();
             }
-            int res = 0;
+            long res = 0;
             do {
                 if (c < '0' || c > '9') {
                     throw new InputMismatchException();
@@ -124,6 +124,21 @@ public class Main {
                 c = read();
             } while (!isSpaceChar(c));
             return res * sgn;
+        }
+
+        public String readString() {
+            int c = read();
+            while (isSpaceChar(c)) {
+                c = read();
+            }
+            StringBuilder res = new StringBuilder();
+            do {
+                if (Character.isValidCodePoint(c)) {
+                    res.appendCodePoint(c);
+                }
+                c = read();
+            } while (!isSpaceChar(c));
+            return res.toString();
         }
 
         public boolean isSpaceChar(int c) {
@@ -137,9 +152,57 @@ public class Main {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
+        public String next() {
+            return readString();
+        }
+
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
+        }
+
+    }
+
+    static class OutputWriter {
+        private final PrintWriter writer;
+
+        public OutputWriter(OutputStream outputStream) {
+            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+        }
+
+        public OutputWriter(Writer writer) {
+            this.writer = new PrintWriter(writer);
+        }
+
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
+                if (i != 0) {
+                    writer.print(' ');
+                }
+                writer.print(objects[i]);
+            }
+        }
+
+        public void print(long[] array) {
+            for (int i = 0; i < array.length; i++) {
+                if (i != 0) {
+                    writer.print(' ');
+                }
+                writer.print(array[i]);
+            }
+        }
+
+        public void printLine(long[] array) {
+            print(array);
+            writer.println();
+        }
+
+        public void close() {
+            writer.close();
+        }
+
+        public void printLine(int i) {
+            writer.println(i);
         }
 
     }
