@@ -22,35 +22,35 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        TaskD solver = new TaskD();
+        TaskF solver = new TaskF();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskD {
+    static class TaskF {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            int n = in.readInt();
-            int d[] = in.readIntArray(n);
-            long sum = 0;
-            long min = Integer.MAX_VALUE;
-            for (int i = 0; i < n; i++) {
-                sum += Math.abs(d[i]);
-                if (min > Math.abs(d[i]))
-                    min = Math.abs(d[i]);
-            }
-            int m[] = new int[n];
-            m[0] = 1;
-            for (int i = 0; i < n - 1; i++) {
-                m[i + 1] = 1;
-                if (m[i] * d[i] < 0) {
-                    m[i] *= -1;
-                    m[i + 1] *= -1;
+            int m = in.readInt();
+            int k = in.readInt();
+            if (k >= (1 << m) || (k == 1 && m == 1))
+                out.printLine(-1);
+            else {
+                if (k == 0) {
+                    for (int i = 0; i < (1 << m); i++)
+                        out.print(i + " " + i + " ");
+                    out.printLine();
+                } else {
+                    for (int i = 0; i < (1 << m); i++) {
+                        if (i != k)
+                            out.print(i + " ");
+                    }
+                    out.print(k + " ");
+                    for (int i = (1 << m) - 1; i >= 0; i--) {
+                        if (i != k)
+                            out.print(i + " ");
+                    }
+                    out.printLine(k);
                 }
             }
-            if (d[n - 1] * m[n - 1] >= 0)
-                out.printLine(sum);
-            else
-                out.printLine(sum - 2 * min);
         }
 
     }
@@ -64,14 +64,6 @@ public class Main {
 
         public InputReader(InputStream stream) {
             this.stream = stream;
-        }
-
-        public int[] readIntArray(int size) {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++) {
-                array[i] = readInt();
-            }
-            return array;
         }
 
         public int read() {
@@ -143,11 +135,24 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
+                if (i != 0) {
+                    writer.print(' ');
+                }
+                writer.print(objects[i]);
+            }
+        }
+
+        public void printLine() {
+            writer.println();
+        }
+
         public void close() {
             writer.close();
         }
 
-        public void printLine(long i) {
+        public void printLine(int i) {
             writer.println(i);
         }
 

@@ -1,0 +1,44 @@
+{
+  "name" : "B - YYMM or MMYY",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1905\n",
+    "output" : "YYMM\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "0112\n",
+    "output" : "AMBIGUOUS\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1700\n",
+    "output" : "NA\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_05.on2019_05_19_AtCoder_Beginner_Contest_126.B___YYMM_or_MMYY.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.19",
+  "contestName" : "AtCoder Beginner Contest 126",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
