@@ -1,0 +1,81 @@
+{
+  "name" : "EllysCodeConstants",
+  "signature" : {
+    "name" : "getLiteral",
+    "result" : "String",
+    "arguments" : [ "String" ],
+    "argumentNames" : [ "candidate" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "DEADBEEF" ],
+    "result" : "0xDEADBEEF",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "BABACECA" ],
+    "result" : "0xBABACECA",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "TOPCODER" ],
+    "result" : "",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "FLU" ],
+    "result" : "0xFLU",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "FULL" ],
+    "result" : "0xFULL",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "FALL" ],
+    "result" : "0xFALL",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "TASTEFUL" ],
+    "result" : "0x7A57EFUL",
+    "index" : 6,
+    "active" : true
+  }, {
+    "arguments" : [ "OFFICIAL" ],
+    "result" : "0x0FF1C1AL",
+    "index" : 7,
+    "active" : true
+  }, {
+    "arguments" : [ "OOZE" ],
+    "result" : "0x002E",
+    "index" : 8,
+    "active" : true
+  }, {
+    "arguments" : [ "ESPRIT" ],
+    "result" : "",
+    "index" : 9,
+    "active" : true
+  }, {
+    "arguments" : [ "COOL" ],
+    "result" : "0xC00L",
+    "index" : 10,
+    "active" : true
+  }, {
+    "arguments" : [ "DISEASE" ],
+    "result" : "0xD15EA5E",
+    "index" : 11,
+    "active" : true
+  }, {
+    "arguments" : [ "SOLVED" ],
+    "result" : "",
+    "index" : 12,
+    "active" : true
+  } ],
+  "date" : "2019.05.22",
+  "contestName" : "TopCoder Open Round #1A",
+  "testClasses" : [ ],
+  "fqn" : "net.oz.EllysCodeConstants",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "EllysAndXor",
+  "signature" : {
+    "name" : "getMax",
+    "result" : "int",
+    "arguments" : [ "int[]" ],
+    "argumentNames" : [ "numbers" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "42 27 38" ],
+    "result" : "44",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "666 133 438 123 893 674 462 209" ],
+    "result" : "976",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "42" ],
+    "result" : "42",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "123 456 789 987 654 321" ],
+    "result" : "975",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "42 13 17 666 811 314 1 5 2 1000" ],
+    "result" : "1007",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2019.05.22",
+  "contestName" : "TopCoder Open Round #1A",
+  "testClasses" : [ ],
+  "fqn" : "net.oz.EllysAndXor",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
