@@ -1,0 +1,44 @@
+{
+  "name" : "B - Born This Way",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 5 1 1 2\n1 3 5 7\n1 2 3 9 10\n",
+    "output" : "11\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 2 4 4 2\n1 10\n10 20\n",
+    "output" : "-1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 3 2 3 1\n1 999999998 999999999 1000000000\n3 4 1000000000\n",
+    "output" : "1000000003\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.01",
+  "contestName" : "Codeforces Global Round 3",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "B - Pairs",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 6\n1 2\n1 3\n1 4\n2 3\n2 4\n3 4\n",
+    "output" : "NO\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 4\n1 2\n2 3\n3 4\n4 5\n",
+    "output" : "YES\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "300000 5\n1 2\n1 2\n1 2\n1 2\n1 2\n",
+    "output" : "YES\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_05.on2019_05_26_Codeforces_Round__562__Div__2_.B___Pairs.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.26",
+  "contestName" : "Codeforces Round #562 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
