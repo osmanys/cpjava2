@@ -2,13 +2,647 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ba0d22-65e9-4fe6-80c5-dfd022b91da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/A - Circle Metro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/B - Pairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/TaskB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/RulerMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/CHelper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckerClass.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskClass.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCaseClass.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopCoderTaskClass.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopCoderTestCaseClass.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/A - Maxim and Biology.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/B - Dima and a Bad XOR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/C - Problem for Nazar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/D - Stas and the Queue at the Buffet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/E - Number of Components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.18 - Codeforces Round #553 (Div. 2)/TaskE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/A - Reverse a Substring.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/B - Game with Telephone Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/C - Alarm Clocks Everywhere.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/D - Beautiful Array.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/Alien Rhyme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/AlienRhyme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/Golf Gophers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/GolfGophers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/Pylons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.22 - Round 1A 2019 - Google Code Jam 2019/Pylons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/A - Neko Finds Grapes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/B - Neko Performs Cat Furrier Transform.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/C - Neko does Maths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/A - Reachable Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/B - Long Number.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/C1 - Increasing Subsequence (easy version).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/C2 - Increasing Subsequence (hard version).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/TaskC1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.26 - Codeforces Round #555 (Div. 3)/TaskC2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/A - Biscuit Generator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/B - Resale.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/C - GCD on Blackboard.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/D - Flipping Signs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.27 - AtCoder Beginner Contest 125/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/Fair Fight.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/FairFight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/Manhattan Crepe Cart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.28 - Round 1B 2019 - Google Code Jam 2019/ManhattanCrepeCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.30 - TopCoder SRM #144/BinaryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.04/2019.04.30 - TopCoder SRM #144/BinaryCode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/A - Inscribed Figures.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/B - Ugly Pairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/C - Match Points.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.01 - Educational Codeforces Round 64 (Rated for Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.04 - Round 1C 2019 - Google Code Jam 2019/Robot Programming Strategy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.04 - Round 1C 2019 - Google Code Jam 2019/RobotProgrammingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Ada Pawns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Ada Rooks 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaPawns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaPawnsTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaPawnsTestLargeCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/AdaRooks2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/Where to Build the Roads.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.06 - May Challenge 2019 Division 1/WhereToBuildTheRoads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/A - A pile of stones.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/B - Expansion coefficient of the array.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/C - The party and sweets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/D - The minimal unique substring.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.12 - Codeforces Round #559 (Div. 2)/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/A - Remainder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/B - Polycarp Training.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/C - Good String.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/D - Almost All Divisors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.14 - Codeforces Round #560 (Div. 3)/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/A - Telephone Number.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/B - Lost Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/C - News Distribution.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/D - Bicolored RBS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.15 - Educational Codeforces Round 65 (Rated for Div. 2)/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/A - Silent Classroom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/B - All the Vowels Please.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/C - A Tale of Two Lands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.17 - Codeforces Round #561 (Div. 2)/TaskCTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/A - Changing a Character.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/B - YYMM or MMYY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/C - Dice and Coin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/D - Even Relation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/E - 1 or 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/F - XOR Matching.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.19 - AtCoder Beginner Contest 126/TaskF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.22 - TopCoder Open Round #1A/EllysAndXor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.22 - TopCoder Open Round #1A/EllysAndXor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.22 - TopCoder Open Round #1A/EllysCodeConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.22 - TopCoder Open Round #1A/EllysCodeConstants.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/A - Circle Metro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/B - Pairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.05/2019.05.26 - Codeforces Round #562 (Div. 2)/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/A - Another One Bites The Dust.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/B - Born This Way.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/C - Crazy Diamond.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/2019.06/2019.06.01 - Codeforces Global Round 3/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/archive.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chelper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpjava2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/AbstractTreapNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/CollectionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/FenwickTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/KDTree2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/ReadOnlyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/TreapNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/comparators/ReverseComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/filter/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/function/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/Heap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/IntHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/IntSplaySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/IntTreapArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/IntTreeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intcollection/Range.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/ArrayBasedIntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/HeavyLightDecomposition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/IntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/LCA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/LongIntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/ReadOnlyIntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/intervaltree/SumIntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/iss/IndependentSetSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/iss/ListIndependentSetSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/iss/RecursiveIndependentSetSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/CPPMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/CPPTreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/EHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/Indexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/map/TreeCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/set/EHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/set/MultiSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/set/PersistentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/set/PersistentTreapSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/collections/set/TreapSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/concurrency/Scheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/concurrency/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/concurrency/TaskFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/datetime/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/datetime/DateTimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/datetime/Month.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/datetime/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/CharAbstractStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/CharCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/CharReversableCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/CharStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/DoubleAbstractStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/DoubleCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/DoubleReversableCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/DoubleStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/IntAbstractStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/IntCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/IntReversableCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/IntStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/LongAbstractStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/LongCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/LongReversableCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/LongStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/CharComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/DoubleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/IntComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/LongComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/comparator/ReverseComparators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharCharPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharCharToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharCharToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharCharToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharCharToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharDoublePredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharDoubleToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharDoubleToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharDoubleToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharDoubleToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharIntPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharIntToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharIntToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharIntToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharIntToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharLongPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharLongToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharLongToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharLongToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharLongToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/CharToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleCharPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleCharToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleCharToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleCharToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleCharToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleDoublePredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleDoubleToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleDoubleToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleDoubleToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleDoubleToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleIntPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleIntToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleIntToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleIntToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleIntToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleLongPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleLongToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleLongToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleLongToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleLongToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/DoubleToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntCharPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntCharToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntCharToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntCharToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntCharToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntDoublePredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntDoubleToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntDoubleToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntDoubleToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntDoubleToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntIntPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntIntToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntIntToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntIntToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntIntToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntLongPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntLongToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntLongToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntLongToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntLongToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/IntToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongCharPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongCharToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongCharToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongCharToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongCharToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongDoublePredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongDoubleToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongDoubleToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongDoubleToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongDoubleToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongIntPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongIntToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongIntToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongIntToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongIntToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongLongPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongLongToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongLongToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongLongToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongLongToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongToCharFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongToDoubleFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongToIntFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/function/LongToLongFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/hashing/CharHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/hashing/DoubleHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/hashing/IntHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/hashing/LongHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/iterator/CharIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/iterator/DoubleIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/iterator/IntIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/iterator/LongIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/CharArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/CharArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/CharList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/DoubleArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/DoubleArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/DoubleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/IntArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/IntArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/LongArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/LongArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/LongList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/list/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/CharCharPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/CharDoublePair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/CharIntPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/CharLongPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/CharVPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/DoubleCharPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/DoubleDoublePair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/DoubleIntPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/DoubleLongPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/DoubleVPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/IntCharPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/IntDoublePair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/IntIntPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/IntLongPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/IntVPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/KCharPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/KDoublePair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/KIntPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/KLongPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/LongCharPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/LongDoublePair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/LongIntPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/LongLongPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/pair/LongVPair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/CharArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/CharQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/DoubleArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/DoubleQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/IntArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/IntQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/LongArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/queue/LongQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/CharHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/CharSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/DoubleHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/DoubleSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/IntHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/IntSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/LongHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/generated/collections/set/LongSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Angle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/GeometryUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Polygon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Quaternion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Ray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/geometry/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/BidirectionalGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/CentralDecomposition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/DFSOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/GraphAlgorithms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/HopcroftKarp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/MaxFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/MinCostFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/MinimalSpanningTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/ShortestDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/graph/StronglyConnectedComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/io/InputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/io/OutputWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/ArrayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/ExtendedRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/MapVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/MiscUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/PowerOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/misc/SimpleMapVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/BooleanMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/Combinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/DoubleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/FastFourierTransform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/IntegerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/Interpolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/LongInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/MultiplicativeFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/NumberIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/PrimeFastFourierTransform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/numbers/Rational.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/AbstractStringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/CompositeStringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/ExpandableStringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/SimpleStringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/StringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/SubstringAutomaton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/SubstringStringHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/SuffixAutomaton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/net/oz/string/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/A___Maxim_and_Biology/A - Maxim and Biology.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/A___Maxim_and_Biology/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/A___Maxim_and_Biology/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR/B - Dima and a Bad XOR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR0/B - Dima and a Bad XOR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR0/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR0/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR1/B - Dima and a Bad XOR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR1/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR2/B - Dima and a Bad XOR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/B___Dima_and_a_Bad_XOR2/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/C___Problem_for_Nazar/C - Problem for Nazar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/C___Problem_for_Nazar/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/C___Problem_for_Nazar/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/D___Stas_and_the_Queue_at_the_Buffet/D - Stas and the Queue at the Buffet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/D___Stas_and_the_Queue_at_the_Buffet/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/D___Stas_and_the_Queue_at_the_Buffet/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/E___Number_of_Components/E - Number of Components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/E___Number_of_Components/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_18_Codeforces_Round__553__Div__2_/E___Number_of_Components/TaskE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/A___Reverse_a_Substring/A - Reverse a Substring.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/A___Reverse_a_Substring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/A___Reverse_a_Substring/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/B___Game_with_Telephone_Numbers/B - Game with Telephone Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/B___Game_with_Telephone_Numbers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/B___Game_with_Telephone_Numbers/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/C___Alarm_Clocks_Everywhere/C - Alarm Clocks Everywhere.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/C___Alarm_Clocks_Everywhere/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/C___Alarm_Clocks_Everywhere/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/D - Beautiful Array.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Alien_Rhyme/Alien Rhyme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Alien_Rhyme/AlienRhyme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Alien_Rhyme/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Golf_Gophers/Golf Gophers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Golf_Gophers/GolfGophers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Golf_Gophers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Pylons/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Pylons/Pylons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_22_Round_1A_2019___Google_Code_Jam_2019/Pylons/Pylons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/A___Neko_Finds_Grapes/A - Neko Finds Grapes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/A___Neko_Finds_Grapes/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/A___Neko_Finds_Grapes/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/B___Neko_Performs_Cat_Furrier_Transform/B - Neko Performs Cat Furrier Transform.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/B___Neko_Performs_Cat_Furrier_Transform/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/B___Neko_Performs_Cat_Furrier_Transform/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/C___Neko_does_Maths/C - Neko does Maths.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/C___Neko_does_Maths/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Codeforces_Round__554__Div__2_/C___Neko_does_Maths/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/D - Beautiful Array.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_24_Educational_Codeforces_Round_63__Rated_for_Div__2_/D___Beautiful_Array/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/A___Reachable_Numbers/A - Reachable Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/A___Reachable_Numbers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/A___Reachable_Numbers/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/B___Long_Number/B - Long Number.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/B___Long_Number/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/B___Long_Number/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C1___Increasing_Subsequence__easy_version_/C1 - Increasing Subsequence (easy version).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C1___Increasing_Subsequence__easy_version_/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C1___Increasing_Subsequence__easy_version_/TaskC1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C2___Increasing_Subsequence__hard_version_/C2 - Increasing Subsequence (hard version).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C2___Increasing_Subsequence__hard_version_/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_26_Codeforces_Round__555__Div__3_/C2___Increasing_Subsequence__hard_version_/TaskC2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/A___Biscuit_Generator/A - Biscuit Generator.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/A___Biscuit_Generator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/A___Biscuit_Generator/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/B___Resale/B - Resale.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/B___Resale/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/B___Resale/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/C___GCD_on_Blackboard/C - GCD on Blackboard.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/C___GCD_on_Blackboard/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/C___GCD_on_Blackboard/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/D___Flipping_Signs/D - Flipping Signs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/D___Flipping_Signs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_27_AtCoder_Beginner_Contest_125/D___Flipping_Signs/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Fair_Fight/Fair Fight.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Fair_Fight/FairFight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Fair_Fight/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Manhattan_Crepe_Cart/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Manhattan_Crepe_Cart/Manhattan Crepe Cart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_28_Round_1B_2019___Google_Code_Jam_2019/Manhattan_Crepe_Cart/ManhattanCrepeCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_30_TopCoder_SRM__144/BinaryCode/BinaryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_30_TopCoder_SRM__144/BinaryCode/BinaryCode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_04/on2019_04_30_TopCoder_SRM__144/BinaryCode/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/A___Inscribed_Figures/A - Inscribed Figures.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/A___Inscribed_Figures/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/A___Inscribed_Figures/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/B___Ugly_Pairs/B - Ugly Pairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/B___Ugly_Pairs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/B___Ugly_Pairs/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/C___Match_Points/C - Match Points.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/C___Match_Points/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_01_Educational_Codeforces_Round_64__Rated_for_Div__2_/C___Match_Points/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_04_Round_1C_2019___Google_Code_Jam_2019/Robot_Programming_Strategy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_04_Round_1C_2019___Google_Code_Jam_2019/Robot_Programming_Strategy/Robot Programming Strategy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_04_Round_1C_2019___Google_Code_Jam_2019/Robot_Programming_Strategy/RobotProgrammingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Pawns/Ada Pawns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Pawns/AdaPawns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Pawns/AdaPawnsTestLargeCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Pawns/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Rooks_2/Ada Rooks 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Rooks_2/AdaRooks2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Ada_Rooks_2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Where_to_Build_the_Roads/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Where_to_Build_the_Roads/Where to Build the Roads.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_06_May_Challenge_2019_Division_1/Where_to_Build_the_Roads/WhereToBuildTheRoads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/A___A_pile_of_stones/A - A pile of stones.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/A___A_pile_of_stones/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/A___A_pile_of_stones/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/B___Expansion_coefficient_of_the_array/B - Expansion coefficient of the array.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/B___Expansion_coefficient_of_the_array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/B___Expansion_coefficient_of_the_array/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/C___The_party_and_sweets/C - The party and sweets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/C___The_party_and_sweets/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/C___The_party_and_sweets/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/D - The minimal unique substring.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_12_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/A___Remainder/A - Remainder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/A___Remainder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/A___Remainder/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/B___Polycarp_Training/B - Polycarp Training.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/B___Polycarp_Training/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/B___Polycarp_Training/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/C___Good_String/C - Good String.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/C___Good_String/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/C___Good_String/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/D___Almost_All_Divisors/D - Almost All Divisors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/D___Almost_All_Divisors/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_14_Codeforces_Round__560__Div__3_/D___Almost_All_Divisors/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/A___Telephone_Number/A - Telephone Number.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/A___Telephone_Number/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/A___Telephone_Number/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/B___Lost_Numbers/B - Lost Numbers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/B___Lost_Numbers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/B___Lost_Numbers/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/C___News_Distribution/C - News Distribution.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/C___News_Distribution/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/C___News_Distribution/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/D___Bicolored_RBS/D - Bicolored RBS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/D___Bicolored_RBS/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_15_Educational_Codeforces_Round_65__Rated_for_Div__2_/D___Bicolored_RBS/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/D - The minimal unique substring.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__559__Div__2_/D___The_minimal_unique_substring/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/A___Silent_Classroom/A - Silent Classroom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/A___Silent_Classroom/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/A___Silent_Classroom/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/B___All_the_Vowels_Please/B - All the Vowels Please.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/B___All_the_Vowels_Please/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/B___All_the_Vowels_Please/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands/C - A Tale of Two Lands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands0/C - A Tale of Two Lands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands0/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands0/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands0/TaskCTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands1/C - A Tale of Two Lands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands1/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands1/TaskCTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands2/C - A Tale of Two Lands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands2/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_17_Codeforces_Round__561__Div__2_/C___A_Tale_of_Two_Lands2/TaskCTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/A___Changing_a_Character/A - Changing a Character.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/A___Changing_a_Character/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/A___Changing_a_Character/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/B___YYMM_or_MMYY/B - YYMM or MMYY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/B___YYMM_or_MMYY/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/B___YYMM_or_MMYY/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/C___Dice_and_Coin/C - Dice and Coin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/C___Dice_and_Coin/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/C___Dice_and_Coin/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/D___Even_Relation/D - Even Relation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/D___Even_Relation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/D___Even_Relation/TaskD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/E___1_or_2/E - 1 or 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/E___1_or_2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/E___1_or_2/TaskE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/F___XOR_Matching/F - XOR Matching.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/F___XOR_Matching/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_19_AtCoder_Beginner_Contest_126/F___XOR_Matching/TaskF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysAndXor/EllysAndXor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysAndXor/EllysAndXor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysAndXor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysCodeConstants/EllysCodeConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysCodeConstants/EllysCodeConstants.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_22_TopCoder_Open_Round__1A/EllysCodeConstants/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/A___Circle_Metro/A - Circle Metro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/A___Circle_Metro/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/A___Circle_Metro/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/B___Pairs/B - Pairs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/B___Pairs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_05/on2019_05_26_Codeforces_Round__562__Div__2_/B___Pairs/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/A___Another_One_Bites_The_Dust/A - Another One Bites The Dust.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/A___Another_One_Bites_The_Dust/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/A___Another_One_Bites_The_Dust/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/B___Born_This_Way/B - Born This Way.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/B___Born_This_Way/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/B___Born_This_Way/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/C___Crazy_Diamond/C - Crazy Diamond.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/C___Crazy_Diamond/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test/on2019_06/on2019_06_01_Codeforces_Global_Round_3/C___Crazy_Diamond/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,109 +651,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="519436470">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.1" value="8" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="16" />
-          <entry key="gitignore" value="2" />
-          <entry key="iml" value="16" />
-          <entry key="java" value="276" />
-          <entry key="json" value="21" />
-          <entry key="properties" value="3" />
-          <entry key="template" value="4" />
-          <entry key="txt" value="4" />
-          <entry key="xml" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="16" />
-          <entry key="IDEA_MODULE" value="16" />
-          <entry key="JAVA" value="276" />
-          <entry key="JSON" value="21" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Properties" value="3" />
-          <entry key="XML" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="18" />
-          <entry key="iml" value="35" />
-          <entry key="java" value="36840" />
-          <entry key="json" value="18" />
-          <entry key="properties" value="5" />
-          <entry key="template" value="6" />
-          <entry key="xml" value="75" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="IDEA_MODULE" value="35" />
-          <entry key="JAVA" value="36840" />
-          <entry key="JSON" value="18" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="75" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -182,7 +720,6 @@
         <option value="$PROJECT_DIR$/lib/lib.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/main/net/oz/AlienRhyme.java" />
         <option value="$PROJECT_DIR$/main/net/oz/Pylons.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC1.java" />
@@ -216,19 +753,15 @@
         <option value="$PROJECT_DIR$/main/net/oz/TaskA.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskB.java" />
         <option value="$PROJECT_DIR$/main/net/oz/TaskC.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="70" />
+    <option name="y" value="27" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,10 +788,6 @@
               <item name="cpjava2" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cpjava2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,14 +797,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -341,21 +872,25 @@
       <workItem from="1559050747222" duration="263000" />
       <workItem from="1559318159729" duration="10055000" />
       <workItem from="1559414026029" duration="105000" />
+      <workItem from="1559415243776" duration="827000" />
+      <workItem from="1559416593371" duration="837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341333000" />
+    <option name="totallyTimeSpent" value="342997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="70" y="27" width="1280" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49497488" visible="true" weight="0.29886913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49497488" visible="true" weight="0.30875203" />
       <window_info id="Structure" order="1" sideWeight="0.50502515" side_tool="true" weight="0.28513733" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4951535" visible="true" weight="0.32930514" />
@@ -376,6 +911,9 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.34652665" />
@@ -407,9 +945,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -478,13 +1013,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/set/EHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-248">
@@ -513,13 +1041,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/graph/GraphAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -575,13 +1097,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="326" selection-start-line="326" selection-end-line="326" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/generated/collections/IntCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -675,20 +1191,9 @@
     <entry file="file://$PROJECT_DIR$/main/net/oz/EllysCodeConstants.java" />
     <entry file="file://$PROJECT_DIR$/main/net/oz/EllysAndXor.java" />
     <entry file="file://$PROJECT_DIR$/main/net/oz/RulerMaker.java" />
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskA.java" />
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskB.java" />
+    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java" />
     <entry file="file://$PROJECT_DIR$/lib/main/net/oz/collections/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -696,10 +1201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/net/oz/TaskC.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -756,6 +1261,17 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
