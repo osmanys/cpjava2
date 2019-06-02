@@ -22,6 +22,6 @@
 hs_err_pid*
 
 out/
-.idea/
 test/Main.java
 CHelperReport.txt
+.idea/workspace.xml
