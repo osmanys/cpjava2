@@ -1,0 +1,44 @@
+{
+  "name" : "B - Catch Overflow!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "9\nadd\nfor 43\nend\nfor 10\nfor 15\nadd\nend\nadd\nend\n",
+    "output" : "161\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\nfor 62\nend\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "11\nfor 100\nfor 100\nfor 100\nfor 100\nfor 100\nadd\nend\nend\nend\nend\nend\n",
+    "output" : "OVERFLOW!!!\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_05_Educational_Codeforces_Round_66__Rated_for_Div__2_.B___Catch_Overflow_.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.05",
+  "contestName" : "Educational Codeforces Round 66 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
