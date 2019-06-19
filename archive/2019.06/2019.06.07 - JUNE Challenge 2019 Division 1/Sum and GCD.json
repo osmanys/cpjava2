@@ -1,0 +1,39 @@
+{
+  "name" : "Sum and GCD",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1              \n4                    \n4 4 7 6\n",
+    "output" : "9\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n3\n20 3 21\n5\n1 2 3 4 5\n3\n19 22 44\n4\n3 6 3 6",
+    "output" : "23\n6\n45\n9",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.SumAndGCD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.07",
+  "contestName" : "JUNE Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

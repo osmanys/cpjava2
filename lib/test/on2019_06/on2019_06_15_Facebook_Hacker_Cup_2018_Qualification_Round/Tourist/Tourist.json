@@ -1,0 +1,34 @@
+{
+  "name" : "Tourist",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "LOCAL_REGEXP",
+    "fileName" : "tourist.*[.]txt"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "tourist.out"
+  },
+  "tests" : [ {
+    "input" : "6\n4 1 3\nLikeSign\nArcade\nSweetStop\nSwagStore\n4 4 100\nFoxGazebo\nMPK20Roof\nWoodenSculpture\nBiryani\n4 3 1\nLikeSign\nArcade\nSweetStop\nSwagStore\n4 3 3\nLikeSign\nArcade\nSweetStop\nSwagStore\n4 3 10\nLikeSign\nArcade\nSweetStop\nSwagStore\n2 1 1000000000000\nRainbowStairs\nWallOfPhones\n",
+    "output" : "Case #1: SweetStop\nCase #2: FoxGazebo MPK20Roof WoodenSculpture Biryani\nCase #3: LikeSign Arcade SweetStop\nCase #4: LikeSign SweetStop SwagStore\nCase #5: LikeSign Arcade SwagStore\nCase #6: WallOfPhones\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_15_Facebook_Hacker_Cup_2018_Qualification_Round.Tourist.Tourist",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.15",
+  "contestName" : "Facebook Hacker Cup 2018 Qualification Round",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : true,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

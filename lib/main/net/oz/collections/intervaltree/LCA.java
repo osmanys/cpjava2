@@ -76,6 +76,10 @@ public class LCA {
         lcaTree.init();
     }
 
+    public long[] getOrder() {
+        return order;
+    }
+
     public int getPosition(int vertex) {
         return position[vertex];
     }

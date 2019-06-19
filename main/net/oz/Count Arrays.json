@@ -1,0 +1,39 @@
+{
+  "name" : "Count Arrays",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n2 2 2\n2 3 2\n41 42 2\n",
+    "output" : "10\n22\n903408624\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n3 3 3\n100 100 100\n1000 1000 1000\n10000 10000 10000\n100000 100000 100000\n2 2 1",
+    "output" : "411\n705406802\n687239177\n338733707\n879816422\n1",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.CountArrays",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.07",
+  "contestName" : "JUNE Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

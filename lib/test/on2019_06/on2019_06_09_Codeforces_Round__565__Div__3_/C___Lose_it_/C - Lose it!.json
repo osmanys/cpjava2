@@ -1,0 +1,44 @@
+{
+  "name" : "C - Lose it!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n4 8 15 16 23\n",
+    "output" : "5\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "12\n4 8 4 15 16 8 23 15 16 42 23 42\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "15\n4 8 4 8 15 16 8 16 23 15 16 4 42 23 42\n",
+    "output" : "3\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_09_Codeforces_Round__565__Div__3_.C___Lose_it_.TaskC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.09",
+  "contestName" : "Codeforces Round #565 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

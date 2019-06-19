@@ -1,0 +1,39 @@
+{
+  "name" : "Chef and Ingredients",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n2 1\n3 3\n",
+    "output" : "0\n2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1000000000000000000 1000000000000000000\n1000 1\n1000 998\n1000000000000000000 1\n1000000000000000000 2",
+    "output" : "48\n0\n997\n0\n1",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.ChefAndIngredients",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "net.oz.ChefAndIngredientsTestCase" ],
+  "date" : "2019.06.07",
+  "contestName" : "JUNE Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

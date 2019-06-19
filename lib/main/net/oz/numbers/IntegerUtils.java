@@ -288,6 +288,11 @@ public class IntegerUtils {
         return result;
     }
 
+    public static long mul(long a, long b, long mod) {
+        long r = a * b;
+        return r >= mod ? r % mod : r;
+    }
+
     public static long lcm(long a, long b) {
         return (a / gcd(a, b)) * b;
     }

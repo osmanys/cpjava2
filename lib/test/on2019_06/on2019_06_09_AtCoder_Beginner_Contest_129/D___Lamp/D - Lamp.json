@@ -1,0 +1,39 @@
+{
+  "name" : "D - Lamp",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 6\n#..#..\n.....#\n....#.\n#.#...\n",
+    "output" : "8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 8\n..#...#.\n....#...\n##......\n..###..#\n...#..#.\n##....#.\n#...#...\n###.#..#\n",
+    "output" : "13\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_09_AtCoder_Beginner_Contest_129.D___Lamp.TaskD",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.09",
+  "contestName" : "AtCoder Beginner Contest 129",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

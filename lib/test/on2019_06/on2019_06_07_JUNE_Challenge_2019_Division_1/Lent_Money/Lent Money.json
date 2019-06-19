@@ -1,0 +1,39 @@
+{
+  "name" : "Lent Money",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n5\n1 2 3 4 5\n2\n4\n7\n10 15 20 13 2 1 44\n4\n14\n",
+    "output" : "23\n129\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n3\n73 32 91\n3\n17",
+    "output" : "211",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_07_JUNE_Challenge_2019_Division_1.Lent_Money.LentMoney",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "on2019_06.on2019_06_07_JUNE_Challenge_2019_Division_1.Lent_Money.LentMoneyTestCase" ],
+  "date" : "2019.06.07",
+  "contestName" : "JUNE Challenge 2019 Division 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
