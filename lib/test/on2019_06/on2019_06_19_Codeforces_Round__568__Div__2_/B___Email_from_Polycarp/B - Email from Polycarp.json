@@ -1,0 +1,39 @@
+{
+  "name" : "B - Email from Polycarp",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\nhello\nhello\nhello\nhelloo\nhello\nhlllloo\nhello\nhelo\n",
+    "output" : "YES\nYES\nNO\nNO\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\naa\nbb\ncodeforces\ncodeforce\npolycarp\npoolycarpp\naaaa\naaaab\nabcdefghijklmnopqrstuvwxyz\nzabcdefghijklmnopqrstuvwxyz\n",
+    "output" : "NO\nNO\nYES\nNO\nNO\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_19_Codeforces_Round__568__Div__2_.B___Email_from_Polycarp.TaskB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.19",
+  "contestName" : "Codeforces Round #568 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

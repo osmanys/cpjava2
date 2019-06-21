@@ -1,0 +1,18 @@
+List<Test> tests = new ArrayList<>();
+int cases = 1;
+
+Random rand = new Random();
+long n, k;
+
+for (int testNumber = 0; testNumber < cases; testNumber++) {
+    StringWriter sw = new StringWriter();
+    OutputWriter out = new OutputWriter(sw);
+    out.printLine(1);
+    n = 2;//Math.abs(rand.nextLong());
+    k = Math.abs(rand.nextInt());
+    out.printLine(n, k);
+    StringBuilder rs = new StringBuilder();
+
+    tests.add(new Test(sw.toString(), rs + "\n"));
+}
+return tests;
