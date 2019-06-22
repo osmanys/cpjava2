@@ -1,0 +1,39 @@
+{
+  "name" : "Mr. X",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "LOCAL_REGEXP",
+    "fileName" : "mr.*.*x.*[.]txt"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "mr.x.out"
+  },
+  "tests" : [ {
+    "input" : "4\nX\n0\n(x|1)\n((1^(X&X))|x)\n",
+    "output" : "Case #1: 1\nCase #2: 0\nCase #3: 0\nCase #4: 1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7\n(((1^(X&X))|x)&(X|(0^x)))\n(X|x)\n(X&x)\n(X^X)\n(X&X)\n(X|X)\n(((1^(X&X))|x)&((1^(X&X))|x))\n",
+    "output" : "Case #1: 1\nCase #2: 0\nCase #3: 0\nCase #4: 0\nCase #5: 1\nCase #6: 1\nCase #7: 1",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_15_Facebook_Hacker_Cup_2019_Qualification_Round.Mr__X.MrX",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.15",
+  "contestName" : "Facebook Hacker Cup 2019 Qualification Round",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : true,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

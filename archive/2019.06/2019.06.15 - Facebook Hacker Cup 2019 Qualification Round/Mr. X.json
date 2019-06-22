@@ -16,7 +16,7 @@
     "active" : true
   }, {
     "input" : "7\n(((1^(X&X))|x)&(X|(0^x)))\n(X|x)\n(X&x)\n(X^X)\n(X&X)\n(X|X)\n(((1^(X&X))|x)&((1^(X&X))|x))\n",
-    "output" : "Case #1: 1\nCase #2: 0\nCase #3: 0\nCase #4: 0\nCase #5: 1\nCase #6: 1\nCase #7: 2",
+    "output" : "Case #1: 1\nCase #2: 0\nCase #3: 0\nCase #4: 0\nCase #5: 1\nCase #6: 1\nCase #7: 1",
     "index" : 1,
     "active" : true
   } ],
