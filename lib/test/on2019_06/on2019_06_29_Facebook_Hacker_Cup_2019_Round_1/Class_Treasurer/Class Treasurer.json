@@ -1,0 +1,39 @@
+{
+  "name" : "Class Treasurer",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "LOCAL_REGEXP",
+    "fileName" : "class.*treasurer.*[.]txt"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "classtreasurer.out"
+  },
+  "tests" : [ {
+    "input" : "6\n4 0\nBAAB\n4 1\nBAAB\n4 1\nABBA\n5 2\nBBBBB\n15 3\nABBBABBBBBABABB\n50 4\nBBABAABBBBABBBBAABBBBAABBBBBABBBAABABBBBBBABABBAAB\n",
+    "output" : "Case #1: 18\nCase #2: 0\nCase #3: 4\nCase #4: 10\nCase #5: 324\nCase #6: 363067831\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n9 0\nAAAAABABB",
+    "output" : "Case #1: 832",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "on2019_06.on2019_06_29_Facebook_Hacker_Cup_2019_Round_1.Class_Treasurer.ClassTreasurer",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "on2019_06.on2019_06_29_Facebook_Hacker_Cup_2019_Round_1.Class_Treasurer.ClassTreasurerTestCase" ],
+  "date" : "2019.06.29",
+  "contestName" : "Facebook Hacker Cup 2019 Round 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : true,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

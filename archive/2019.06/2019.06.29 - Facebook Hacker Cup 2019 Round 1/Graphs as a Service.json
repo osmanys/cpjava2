@@ -1,0 +1,34 @@
+{
+  "name" : "Graphs as a Service",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "LOCAL_REGEXP",
+    "fileName" : "graphs.*as.*a.*service.*[.]txt"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "graphsasaservice.out"
+  },
+  "tests" : [ {
+    "input" : "5\n3 1\n3 1 5\n3 3\n1 2 1\n2 3 1\n1 3 100\n4 3\n1 4 5\n2 3 5\n4 2 4\n8 10\n2 6 16\n7 3 6\n5 1 11\n7 6 12\n8 1 8\n6 1 18\n1 3 12\n3 5 9\n6 5 15\n7 1 6\n10 10\n6 7 7\n8 5 3\n3 7 7\n10 4 24\n6 2 8\n8 7 19\n3 9 22\n5 7 17\n9 2 12\n2 7 2\n",
+    "output" : "Case #1: 3\n1 2 4\n1 3 8\n3 2 1\nCase #2: Impossible\nCase #3: 4\n1 2 3\n2 4 4\n4 3 3\n3 1 2\nCase #4: 8\n7 2 4\n8 5 5\n1 5 11\n6 8 10\n8 7 2\n1 7 6\n3 8 4\n5 7 9\nCase #5: Impossible\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "main/net/oz",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "net.oz.GraphsAsAService",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ "net.oz.GraphsAsAServiceTestCase" ],
+  "date" : "2019.06.29",
+  "contestName" : "Facebook Hacker Cup 2019 Round 1",
+  "truncate" : true,
+  "inputClass" : "net.oz.io.InputReader",
+  "outputClass" : "net.oz.io.OutputWriter",
+  "includeLocale" : true,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
